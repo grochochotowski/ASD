@@ -1,0 +1,14 @@
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\bin\Debug\net6.0\ASD-zad3-C.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\bin\Debug\net6.0\ASD-zad3-C.deps.json
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\bin\Debug\net6.0\ASD-zad3-C.runtimeconfig.json
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\bin\Debug\net6.0\ASD-zad3-C.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\bin\Debug\net6.0\ASD-zad3-C.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.GeneratedMSBuildEditorConfig.editorconfig
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.AssemblyInfoInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.AssemblyInfo.cs
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.csproj.CoreCompileInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\refint\ASD-zad3-C.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ASD-zad3-C.genruntimeconfig.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad3\ASD-zad3-C\ASD-zad3-C\obj\Debug\net6.0\ref\ASD-zad3-C.dll
