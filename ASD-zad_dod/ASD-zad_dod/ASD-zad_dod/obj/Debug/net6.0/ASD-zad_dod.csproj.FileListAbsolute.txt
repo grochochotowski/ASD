@@ -1,0 +1,14 @@
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\bin\Debug\net6.0\ASD-zad_dod.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\bin\Debug\net6.0\ASD-zad_dod.deps.json
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\bin\Debug\net6.0\ASD-zad_dod.runtimeconfig.json
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\bin\Debug\net6.0\ASD-zad_dod.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\bin\Debug\net6.0\ASD-zad_dod.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.GeneratedMSBuildEditorConfig.editorconfig
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.AssemblyInfoInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.AssemblyInfo.cs
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.csproj.CoreCompileInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\refint\ASD-zad_dod.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ASD-zad_dod.genruntimeconfig.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad_dod\ASD-zad_dod\ASD-zad_dod\obj\Debug\net6.0\ref\ASD-zad_dod.dll
