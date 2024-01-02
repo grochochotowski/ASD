@@ -1,0 +1,15 @@
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\bin\Debug\ASD-zad1.exe.config
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\bin\Debug\ASD-zad1.exe
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\bin\Debug\ASD-zad1.pdb
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.csproj.AssemblyReference.cache
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.csproj.SuggestedBindingRedirects.cache
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.csproj.CoreCompileInputs.cache
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.exe
+C:\Programowanie\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.csproj.AssemblyReference.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.csproj.CoreCompileInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\obj\Debug\ASD-zad1.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\bin\Debug\ASD-zad1.exe.config
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\bin\Debug\ASD-zad1.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad1\ASD-zad1\bin\Debug\ASD-zad1.pdb
