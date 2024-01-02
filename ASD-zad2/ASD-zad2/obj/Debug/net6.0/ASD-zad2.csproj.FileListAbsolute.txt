@@ -1,0 +1,14 @@
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\bin\Debug\net6.0\ASD-zad2.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\bin\Debug\net6.0\ASD-zad2.deps.json
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\bin\Debug\net6.0\ASD-zad2.runtimeconfig.json
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\bin\Debug\net6.0\ASD-zad2.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\bin\Debug\net6.0\ASD-zad2.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.GeneratedMSBuildEditorConfig.editorconfig
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.AssemblyInfoInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.AssemblyInfo.cs
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.csproj.CoreCompileInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\refint\ASD-zad2.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ASD-zad2.genruntimeconfig.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad2\ASD-zad2\obj\Debug\net6.0\ref\ASD-zad2.dll
