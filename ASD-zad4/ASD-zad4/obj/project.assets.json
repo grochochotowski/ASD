@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad4\\ASD-zad4\\ASD-zad4\\ASD-zad4.csproj",
+      "projectUniqueName": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad4\\ASD-zad4\\ASD-zad4.csproj",
       "projectName": "ASD-zad4",
-      "projectPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad4\\ASD-zad4\\ASD-zad4\\ASD-zad4.csproj",
+      "projectPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad4\\ASD-zad4\\ASD-zad4.csproj",
       "packagesPath": "C:\\Users\\gmich\\.nuget\\packages\\",
-      "outputPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad4\\ASD-zad4\\ASD-zad4\\obj\\",
+      "outputPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad4\\ASD-zad4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gmich\\AppData\\Roaming\\NuGet\\NuGet.Config",
