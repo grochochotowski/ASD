@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\nonSystem\\IT\\Code\\ASD\\ASD-ZAD2\\ASD-zad2\\ASD-zad2.csproj": {}
+    "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad2\\ASD-zad2\\ASD-zad2.csproj": {}
   },
   "projects": {
-    "C:\\nonSystem\\IT\\Code\\ASD\\ASD-ZAD2\\ASD-zad2\\ASD-zad2.csproj": {
+    "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad2\\ASD-zad2\\ASD-zad2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-ZAD2\\ASD-zad2\\ASD-zad2.csproj",
+        "projectUniqueName": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad2\\ASD-zad2\\ASD-zad2.csproj",
         "projectName": "ASD-zad2",
-        "projectPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-ZAD2\\ASD-zad2\\ASD-zad2.csproj",
+        "projectPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad2\\ASD-zad2\\ASD-zad2.csproj",
         "packagesPath": "C:\\Users\\gmich\\.nuget\\packages\\",
-        "outputPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-ZAD2\\ASD-zad2\\obj\\",
+        "outputPath": "C:\\nonSystem\\IT\\Code\\ASD\\ASD-zad2\\ASD-zad2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmich\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
