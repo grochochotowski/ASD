@@ -1,4 +1,9 @@
-﻿namespace ASD_zad4
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.IO;
+using System.Net;
+using System.Xml.Linq;
+
+namespace ASD_zad4
 {
     // 1.  Napisz program realizujący książkę telefoniczną w strukturze drzewa AVL
     //     Program ma umożliwiać wykonanie następujących operacji:
@@ -33,6 +38,16 @@
             _street = street;
             _address = address;
             _number = number;
+
+            _level = level;
+        }
+        public Element (Element prevElement, int level)
+        {
+            _name = prevElement._name;
+            _city = prevElement._city;
+            _street = prevElement._street;
+            _address = prevElement._address;
+            _number = prevElement._number;
 
             _level = level;
         }
