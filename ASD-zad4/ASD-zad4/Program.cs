@@ -16,6 +16,25 @@
     // 2.  Przygotuj plik do testów – co najmniej 100 abonentów wraz z danymi
     // 3.  Przetestowanie poprawności zaimplementowanych operacji i ustalenie ich złożoności czasowej
 
+    public class Element
+    {
+        public string _name;
+        public string _city;
+        public string _street;
+        public string _address;
+
+        public int _level;
+
+        public Element(string name, string city, string street, string address, int level)
+        {
+            _name = name;
+            _city = city;
+            _street = street;
+            _address = address;
+            _level = level;
+        }
+    }
+
     internal class Program
     {
         /// ============================= Variables =============================
