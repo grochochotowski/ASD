@@ -57,7 +57,7 @@ namespace ASD_zad4
     internal class Program
     {
         /// ============================= Variables =============================
-        public static List<Element> avl = new();
+        public static List<Element> avl = [];
 
         /// ============================= Functions =============================
         public void RotationRL()
