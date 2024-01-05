@@ -94,11 +94,24 @@ namespace ASD_zad4
             StreamReader input = new StreamReader(pathIn);
 
             string line = input.ReadLine();
+            int index = 1;
 
             while (line != null)
             {
                 var lineSplit = line.Split(",");
+
+                // check if compare parent to new lower or higher
+                // go to CLR
+                // do this until end of branch
+                // put element
+                // calculate levels on branch
+                // check if levels are ok
+                // if levels ok do nothing
+                // if levels not ok do something
+
                 avl.Add(new Element(lineSplit[0] + " " + lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[0], lineSplit[0], 0, null));
+
+
                 line = input.ReadLine();
             }
 
