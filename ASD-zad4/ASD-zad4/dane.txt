@@ -1,100 +1,100 @@
-Adam,Kowalski,Gdynia,Kwiatowa,17
-Marta,Nowak,Olsztyn,Słoneczna,29/5
-Piotr,Wi�niewski,Wałbrzych,Parkowa,8
-Anna,D�browska,Tarnów,Kasprowicza,12/3
-Micha�,Lewandowski,Kalisz,Mickiewicza,5
-Katarzyna,W�jcik,Konin,Polna,21
-Jakub,Kami�ski,Piła,Leśna,14/7
-Natalia,Koz�owska,Tczew,Królewska,33
-Szymon,Jankowski,Jarosław,Sikorskiego,19
-Agnieszka,Zieli�ska,Słupsk,Podgórna,7
-Marcin,Szyma�ski,Starogard Gdański,Toruńska,11/2
-Kinga,Wo�niak,Sandomierz,Wąska,3
-Pawe�,Kubiak,Zamość,Spokojna,16
-Karolina,Kowalczyk,Ostrołęka,Mickiewicza,22
-Tomasz,M�ynarski,Biała Podlaska,Kościuszki,4/6
-Monika,Pawlak,Ełk,Słowiańska,25
-Grzegorz,Adamczyk,Nowy Dwór Mazowiecki,Zielona,30/9
-Ewa,Sikorska,Pisz,Jana Pawła II,18
-Damian,Nowicki,Koło,Wojska Polskiego,7A
-Julia,Malinowska,Wadowice,Książęca,10B
-Rafa�,Zaj�c,Zawiercie,Mickiewicza,13
-Aleksandra,G�rska,Wyszków,Piłsudskiego,9
-�ukasz,Tomczak,Wągrowiec,Sienkiewicza,11/4
-Dorota,Jab�o�ska,Płońsk,Jana III Sobieskiego,20
-Adrian,Kr�l,Łęczna,Bursztynowa,6
-Izabela,Wrona,Brzesko,Jagiellońska,23
-Artur,Duda,Pruszcz Gdański,Chmielna,28
-Kamila,Piotrowska,Mszczonów,Kościelna,15
-Robert,Grabowski,Działdowo,Jana Pawła II,2/1
-Oliwia,BaranMazur,Grajewo,Mickiewicza,27
-Mateusz,Michalski,Sieradz,Poniatowskiego,19
-Justyna,Nowacka,Białogard,Kopernika,14
-Daniel,Kaczmarek,Krosno Odrzańskie,Parkowa,31
-Magdalena,Zawadzka,Namysłów,Kościelna,9/2
-Przemys�aw,Kowal,Węgorzewo,Targowa,5A
-Dominika,Wieczorek,Ostróda,Konopnickiej,36
-Marek,Kwiatkowski,Kościerzyna,Rynek,3/7
-Wiktoria,Nowicka,Oleśnica,Kilińskiego,26
-Rados�aw,Wojciechowski,Giżycko,Zamkowa,8
-Zuzanna,Jastrz�bska,Trzebnica,Słowackiego,2A/4
-Krzysztof,Wasilewski,Radomsko,Mickiewicza,18
-Anna,Urban,Krapkowice,Słowackiego,5/9
-Maciej,Mazur,Olecko,Długa,27
-Weronika,Adamczak,Ostrów Mazowiecka,Kościuszki,14
-Micha�,Krajewski,Pleszew,Leśna,32
-Patrycja,Paw�owska,Wolin,Piastowska,6
-Adam,Nowakowski,Kwidzyn,Sienkiewicza,23/2
-Paulina,Krupa,Oleśno,Kwiatowa,11
-Kamil,Kowalewski,Prudnik,Narutowicza,29
-Agata,Dzi�cio�,Kętrzyn,Kopernika,4/7
-Grzegorz,Zieli�ski,Złotów,Parkowa,16
-Martyna,G�rka,Łask,Jana Pawła II,21
-Tomasz,Majewski,Lidzbark Warmiński,Słoneczna,38
-Karolina,Zi�ba,Pisz,3 Maja,9
-Rafa�,Sikora,Ustka,Portowa,20
-Aleksandra,Olszewska,Kłodawa,Kwiatowa,7
-Marcin,Kwiatkowski,Wieliczka,Krakowska,12
-Monika,Piotrowska,Dębica,Sikorskiego,24/3
-Jakub,Gajewski,Młynary,Szkolna,5
-Natalia,Kaczmarczyk,Przasnysz,Mickiewicza,19
-Damian,Zalewski,Frombork,Piwna,8
-Magdalena,Kr�l,Wschowa,Staromiejska,33
-Micha�,Sikorski,Międzyrzecz,Kwiatowa,10
-Kamila,Kubiak,Nowy Staw,Lipowa,25
-Pawe�,Jarosz,Jastarnia,Nadmorska,6
-Alicja,J�drzejczyk,Lidzbark,Kościelna,11/4
-Mateusz,Walczak,Puck,Wiejska,14
-Izabela,Kr�l,Drawsko Pomorskie,Chopina,28
-Adam,Sobczak,Prószków,Polna,36
-Katarzyna,Sikora,Nidzica,Sienkiewicza,17
-Robert,Nowak,Kowary,Parkowa,22
-Paulina,Kaczmarek,Nakło nad Notecią,Piastowska,31
-Rados�aw,Szewczyk,Ciechanów,Narutowicza,40
-Agnieszka,Sobczyk,Pionki,Leśna,7
-�ukasz,G�rski,Lubawa,Mickiewicza,13/5
-Dominika,Pawlak,Bytów,Grunwaldzka,26
-Marcin,Zawadzki,Cedynia,Słowiańska,19
-Monika,Wo�niak,Iława,Rybacka,35
-Krzysztof,Piotrowski,Solec Kujawski,Kościuszki,44
-Anna,St�pie�,Gubin,Rycerska,3A
-Adrian,Zaj�c,Strzelce Krajeńskie,Jagiellońska,9
-Aleksandra,Sikorska,Drezdenko,Dworcowa,17
-Micha�,Gajda,Osieczna,Parkowa,12
-Marta,Zalewska,Warta,Wodna,30
-Daniel,Kowalczyk,Jeziorany,Chopina,5
-Kinga,Szewczyk,Trzcianka,Sienkiewicza,8
-Jakub,Jasi�ski,Nowe,Kościelna,23
-Natalia,Dudek,Dobiegniew,Ogrodowa,16
-Szymon,Zaj�c,Ińsko,Spacerowa,28
-Agnieszka,Kr�l,Prusice,Piastowska,21
-Piotr,Kaczor,Borne Sulinowo,Plac Wolności,37
-Weronika,Sikorska,Szamotuły,Mickiewicza,15/6
-Tomasz,Adamczyk,Osiek,Szkolna,42
-Karolina,Sobczak,Dobrzany,Łąkowa,20
-Artur,Zawisza,Brodnica,Kościuszki,4
-Julia,Jankowska,Dąbie,Słoneczna,10
-Marcin,Sikora,Mszana Dolna,Wiejska,29
-Oliwia,Duda,Janowiec Wielkopolski,Piłsudskiego,18
-Dawid,Szczepa�ski,Świerzawa,Sienkiewicza,45
-Katarzyna,Gajewska,Solec nad Wisłą,Parkowa,24
+Adam,Kowalski,Gdynia,Kwiatowa,17,395756387
+Marta,Nowak,Olsztyn,Słoneczna,29/5,090496750
+Piotr,Wi�niewski,Wałbrzych,Parkowa,8,468203100
+Anna,D�browska,Tarnów,Kasprowicza,12/3,044529258
+Micha�,Lewandowski,Kalisz,Mickiewicza,5,598647213
+Katarzyna,W�jcik,Konin,Polna,21,589410720
+Jakub,Kami�ski,Piła,Leśna,14/7,703265281
+Natalia,Koz�owska,Tczew,Królewska,33,860634455
+Szymon,Jankowski,Jarosław,Sikorskiego,19,916858921
+Agnieszka,Zieli�ska,Słupsk,Podgórna,7,180417936
+Marcin,Szyma�ski,Starogard Gdański,Toruńska,11/2,448501957
+Kinga,Wo�niak,Sandomierz,Wąska,3,366052944
+Pawe�,Kubiak,Zamość,Spokojna,16,469500303
+Karolina,Kowalczyk,Ostrołęka,Mickiewicza,22,183934030
+Tomasz,M�ynarski,Biała Podlaska,Kościuszki,4/6,834549734
+Monika,Pawlak,Ełk,Słowiańska,25,398259289
+Grzegorz,Adamczyk,Nowy Dwór Mazowiecki,Zielona,30/9,705108612
+Ewa,Sikorska,Pisz,Jana Pawła II,18,910364347
+Damian,Nowicki,Koło,Wojska Polskiego,7A,707532560
+Julia,Malinowska,Wadowice,Książęca,10B,385895757
+Rafa�,Zaj�c,Zawiercie,Mickiewicza,13,160297622
+Aleksandra,G�rska,Wyszków,Piłsudskiego,9,094758904
+�ukasz,Tomczak,Wągrowiec,Sienkiewicza,11/4,588067643
+Dorota,Jab�o�ska,Płońsk,Jana III Sobieskiego,20,459479232
+Adrian,Kr�l,Łęczna,Bursztynowa,6,724109000
+Izabela,Wrona,Brzesko,Jagiellońska,23,053860524
+Artur,Duda,Pruszcz Gdański,Chmielna,28,684531565
+Kamila,Piotrowska,Mszczonów,Kościelna,15,120540540
+Robert,Grabowski,Działdowo,Jana Pawła II,2/1,901387349
+Oliwia,BaranMazur,Grajewo,Mickiewicza,27,367810977
+Mateusz,Michalski,Sieradz,Poniatowskiego,19,487441596
+Justyna,Nowacka,Białogard,Kopernika,14,555684429
+Daniel,Kaczmarek,Krosno Odrzańskie,Parkowa,31,020712809
+Magdalena,Zawadzka,Namysłów,Kościelna,9/2,534288438
+Przemys�aw,Kowal,Węgorzewo,Targowa,5A,946415957
+Dominika,Wieczorek,Ostróda,Konopnickiej,36,971942223
+Marek,Kwiatkowski,Kościerzyna,Rynek,3/7,885213167
+Wiktoria,Nowicka,Oleśnica,Kilińskiego,26,765316802
+Rados�aw,Wojciechowski,Giżycko,Zamkowa,8,923128341
+Zuzanna,Jastrz�bska,Trzebnica,Słowackiego,2A/4,595027444
+Krzysztof,Wasilewski,Radomsko,Mickiewicza,18,418950630
+Anna,Urban,Krapkowice,Słowackiego,5/9,001413257
+Maciej,Mazur,Olecko,Długa,27,223736580
+Weronika,Adamczak,Ostrów Mazowiecka,Kościuszki,14,051956910
+Micha�,Krajewski,Pleszew,Leśna,32,000142477
+Patrycja,Paw�owska,Wolin,Piastowska,6,195578127
+Adam,Nowakowski,Kwidzyn,Sienkiewicza,23/2,277362054
+Paulina,Krupa,Oleśno,Kwiatowa,11,540665802
+Kamil,Kowalewski,Prudnik,Narutowicza,29,245892614
+Agata,Dzi�cio�,Kętrzyn,Kopernika,4/7,371118314
+Grzegorz,Zieli�ski,Złotów,Parkowa,16,192268849
+Martyna,G�rka,Łask,Jana Pawła II,21,025504776
+Tomasz,Majewski,Lidzbark Warmiński,Słoneczna,38,190201143
+Karolina,Zi�ba,Pisz,3 Maja,9,244471356
+Rafa�,Sikora,Ustka,Portowa,20,664124601
+Aleksandra,Olszewska,Kłodawa,Kwiatowa,7,232352477
+Marcin,Kwiatkowski,Wieliczka,Krakowska,12,292730866
+Monika,Piotrowska,Dębica,Sikorskiego,24/3,921343813
+Jakub,Gajewski,Młynary,Szkolna,5,464609957
+Natalia,Kaczmarczyk,Przasnysz,Mickiewicza,19,395669646
+Damian,Zalewski,Frombork,Piwna,8,965000481
+Magdalena,Kr�l,Wschowa,Staromiejska,33,954324319
+Micha�,Sikorski,Międzyrzecz,Kwiatowa,10,830496451
+Kamila,Kubiak,Nowy Staw,Lipowa,25,806416465
+Pawe�,Jarosz,Jastarnia,Nadmorska,6,452994426
+Alicja,J�drzejczyk,Lidzbark,Kościelna,11/4,357396031
+Mateusz,Walczak,Puck,Wiejska,14,402044780
+Izabela,Kr�l,Drawsko Pomorskie,Chopina,28,548738271
+Adam,Sobczak,Prószków,Polna,36,143882486
+Katarzyna,Sikora,Nidzica,Sienkiewicza,17,007211690
+Robert,Nowak,Kowary,Parkowa,22,251124942
+Paulina,Kaczmarek,Nakło nad Notecią,Piastowska,31,335624972
+Rados�aw,Szewczyk,Ciechanów,Narutowicza,40,426148217
+Agnieszka,Sobczyk,Pionki,Leśna,7,808920425
+�ukasz,G�rski,Lubawa,Mickiewicza,13/5,380953350
+Dominika,Pawlak,Bytów,Grunwaldzka,26,258863794
+Marcin,Zawadzki,Cedynia,Słowiańska,19,225028160
+Monika,Wo�niak,Iława,Rybacka,35,246331667
+Krzysztof,Piotrowski,Solec Kujawski,Kościuszki,44,292088358
+Anna,St�pie�,Gubin,Rycerska,3A,001603420
+Adrian,Zaj�c,Strzelce Krajeńskie,Jagiellońska,9,929562729
+Aleksandra,Sikorska,Drezdenko,Dworcowa,17,014213159
+Micha�,Gajda,Osieczna,Parkowa,12,309460713
+Marta,Zalewska,Warta,Wodna,30,730787960
+Daniel,Kowalczyk,Jeziorany,Chopina,5,200622047
+Kinga,Szewczyk,Trzcianka,Sienkiewicza,8,319356438
+Jakub,Jasi�ski,Nowe,Kościelna,23,160239936
+Natalia,Dudek,Dobiegniew,Ogrodowa,16,280352556
+Szymon,Zaj�c,Ińsko,Spacerowa,28,504539273
+Agnieszka,Kr�l,Prusice,Piastowska,21,546569462
+Piotr,Kaczor,Borne Sulinowo,Plac Wolności,37,659684949
+Weronika,Sikorska,Szamotuły,Mickiewicza,15/6,746209227
+Tomasz,Adamczyk,Osiek,Szkolna,42,220987933
+Karolina,Sobczak,Dobrzany,Łąkowa,20,497356750
+Artur,Zawisza,Brodnica,Kościuszki,4,082702724
+Julia,Jankowska,Dąbie,Słoneczna,10,877875579
+Marcin,Sikora,Mszana Dolna,Wiejska,29,938774459
+Oliwia,Duda,Janowiec Wielkopolski,Piłsudskiego,18,202583856
+Dawid,Szczepa�ski,Świerzawa,Sienkiewicza,45,041728386
+Katarzyna,Gajewska,Solec nad Wisłą,Parkowa,24,766644189
