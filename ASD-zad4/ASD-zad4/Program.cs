@@ -29,8 +29,8 @@
         {
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
-            string pathIn = location + "XX_in_ps7_Grochowski.txt";
-            string pathOut = location + "XX_out_ps7_Grochowski.txt";
+            string pathIn = location + "dane.txt";
+            string pathOut = location + "wynik.txt";
 
             /// ========================= READING INPUT DATA ========================
 
