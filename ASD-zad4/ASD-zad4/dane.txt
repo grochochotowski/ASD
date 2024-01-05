@@ -1,100 +1,100 @@
-Adam Kowalski
-Marta Nowak
-Piotr Wi�niewski
-Anna D�browska
-Micha� Lewandowski
-Katarzyna W�jcik
-Jakub Kami�ski
-Natalia Koz�owska
-Szymon Jankowski
-Agnieszka Zieli�ska
-Marcin Szyma�ski
-Kinga Wo�niak
-Pawe� Kubiak
-Karolina Kowalczyk
-Tomasz M�ynarski
-Monika Pawlak
-Grzegorz Adamczyk
-Ewa Sikorska
-Damian Nowicki
-Julia Malinowska
-Rafa� Zaj�c
-Aleksandra G�rska
-�ukasz Tomczak
-Dorota Jab�o�ska
-Adrian Kr�l
-Izabela Wrona
-Artur Duda
-Kamila Piotrowska
-Robert Grabowski
-Oliwia Baran
-Mateusz Michalski
-Justyna Nowacka
-Daniel Kaczmarek
-Magdalena Zawadzka
-Przemys�aw Kowal
-Dominika Wieczorek
-Marek Kwiatkowski
-Wiktoria Nowicka
-Rados�aw Wojciechowski
-Zuzanna Jastrz�bska
-Krzysztof Wasilewski
-Anna Urban
-Maciej Mazur
-Weronika Adamczak
-Micha� Krajewski
-Patrycja Paw�owska
-Adam Nowakowski
-Paulina Krupa
-Kamil Kowalewski
-Agata Dzi�cio�
-Grzegorz Zieli�ski
-Martyna G�rka
-Tomasz Majewski
-Karolina Zi�ba
-Rafa� Sikora
-Aleksandra Olszewska
-Marcin Kwiatkowski
-Monika Piotrowska
-Jakub Gajewski
-Natalia Kaczmarczyk
-Damian Zalewski
-Magdalena Kr�l
-Micha� Sikorski
-Kamila Kubiak
-Pawe� Jarosz
-Alicja J�drzejczyk
-Mateusz Walczak
-Izabela Kr�l
-Adam Sobczak
-Katarzyna Sikora
-Robert Nowak
-Paulina Kaczmarek
-Rados�aw Szewczyk
-Agnieszka Sobczyk
-�ukasz G�rski
-Dominika Pawlak
-Marcin Zawadzki
-Monika Wo�niak
-Krzysztof Piotrowski
-Anna St�pie�
-Adrian Zaj�c
-Aleksandra Sikorska
-Micha� Gajda
-Marta Zalewska
-Daniel Kowalczyk
-Kinga Szewczyk
-Jakub Jasi�ski
-Natalia Dudek
-Szymon Zaj�c
-Agnieszka Kr�l
-Piotr Kaczor
-Weronika Sikorska
-Tomasz Adamczyk
-Karolina Sobczak
-Artur Zawisza
-Julia Jankowska
-Marcin Sikora
-Oliwia Duda
-Dawid Szczepa�ski
-Katarzyna Gajewska
+Adam,Kowalski,Gdynia,Kwiatowa,17
+Marta,Nowak,Olsztyn,Słoneczna,29/5
+Piotr,Wi�niewski,Wałbrzych,Parkowa,8
+Anna,D�browska,Tarnów,Kasprowicza,12/3
+Micha�,Lewandowski,Kalisz,Mickiewicza,5
+Katarzyna,W�jcik,Konin,Polna,21
+Jakub,Kami�ski,Piła,Leśna,14/7
+Natalia,Koz�owska,Tczew,Królewska,33
+Szymon,Jankowski,Jarosław,Sikorskiego,19
+Agnieszka,Zieli�ska,Słupsk,Podgórna,7
+Marcin,Szyma�ski,Starogard Gdański,Toruńska,11/2
+Kinga,Wo�niak,Sandomierz,Wąska,3
+Pawe�,Kubiak,Zamość,Spokojna,16
+Karolina,Kowalczyk,Ostrołęka,Mickiewicza,22
+Tomasz,M�ynarski,Biała Podlaska,Kościuszki,4/6
+Monika,Pawlak,Ełk,Słowiańska,25
+Grzegorz,Adamczyk,Nowy Dwór Mazowiecki,Zielona,30/9
+Ewa,Sikorska,Pisz,Jana Pawła II,18
+Damian,Nowicki,Koło,Wojska Polskiego,7A
+Julia,Malinowska,Wadowice,Książęca,10B
+Rafa�,Zaj�c,Zawiercie,Mickiewicza,13
+Aleksandra,G�rska,Wyszków,Piłsudskiego,9
+�ukasz,Tomczak,Wągrowiec,Sienkiewicza,11/4
+Dorota,Jab�o�ska,Płońsk,Jana III Sobieskiego,20
+Adrian,Kr�l,Łęczna,Bursztynowa,6
+Izabela,Wrona,Brzesko,Jagiellońska,23
+Artur,Duda,Pruszcz Gdański,Chmielna,28
+Kamila,Piotrowska,Mszczonów,Kościelna,15
+Robert,Grabowski,Działdowo,Jana Pawła II,2/1
+Oliwia,BaranMazur,Grajewo,Mickiewicza,27
+Mateusz,Michalski,Sieradz,Poniatowskiego,19
+Justyna,Nowacka,Białogard,Kopernika,14
+Daniel,Kaczmarek,Krosno Odrzańskie,Parkowa,31
+Magdalena,Zawadzka,Namysłów,Kościelna,9/2
+Przemys�aw,Kowal,Węgorzewo,Targowa,5A
+Dominika,Wieczorek,Ostróda,Konopnickiej,36
+Marek,Kwiatkowski,Kościerzyna,Rynek,3/7
+Wiktoria,Nowicka,Oleśnica,Kilińskiego,26
+Rados�aw,Wojciechowski,Giżycko,Zamkowa,8
+Zuzanna,Jastrz�bska,Trzebnica,Słowackiego,2A/4
+Krzysztof,Wasilewski,Radomsko,Mickiewicza,18
+Anna,Urban,Krapkowice,Słowackiego,5/9
+Maciej,Mazur,Olecko,Długa,27
+Weronika,Adamczak,Ostrów Mazowiecka,Kościuszki,14
+Micha�,Krajewski,Pleszew,Leśna,32
+Patrycja,Paw�owska,Wolin,Piastowska,6
+Adam,Nowakowski,Kwidzyn,Sienkiewicza,23/2
+Paulina,Krupa,Oleśno,Kwiatowa,11
+Kamil,Kowalewski,Prudnik,Narutowicza,29
+Agata,Dzi�cio�,Kętrzyn,Kopernika,4/7
+Grzegorz,Zieli�ski,Złotów,Parkowa,16
+Martyna,G�rka,Łask,Jana Pawła II,21
+Tomasz,Majewski,Lidzbark Warmiński,Słoneczna,38
+Karolina,Zi�ba,Pisz,3 Maja,9
+Rafa�,Sikora,Ustka,Portowa,20
+Aleksandra,Olszewska,Kłodawa,Kwiatowa,7
+Marcin,Kwiatkowski,Wieliczka,Krakowska,12
+Monika,Piotrowska,Dębica,Sikorskiego,24/3
+Jakub,Gajewski,Młynary,Szkolna,5
+Natalia,Kaczmarczyk,Przasnysz,Mickiewicza,19
+Damian,Zalewski,Frombork,Piwna,8
+Magdalena,Kr�l,Wschowa,Staromiejska,33
+Micha�,Sikorski,Międzyrzecz,Kwiatowa,10
+Kamila,Kubiak,Nowy Staw,Lipowa,25
+Pawe�,Jarosz,Jastarnia,Nadmorska,6
+Alicja,J�drzejczyk,Lidzbark,Kościelna,11/4
+Mateusz,Walczak,Puck,Wiejska,14
+Izabela,Kr�l,Drawsko Pomorskie,Chopina,28
+Adam,Sobczak,Prószków,Polna,36
+Katarzyna,Sikora,Nidzica,Sienkiewicza,17
+Robert,Nowak,Kowary,Parkowa,22
+Paulina,Kaczmarek,Nakło nad Notecią,Piastowska,31
+Rados�aw,Szewczyk,Ciechanów,Narutowicza,40
+Agnieszka,Sobczyk,Pionki,Leśna,7
+�ukasz,G�rski,Lubawa,Mickiewicza,13/5
+Dominika,Pawlak,Bytów,Grunwaldzka,26
+Marcin,Zawadzki,Cedynia,Słowiańska,19
+Monika,Wo�niak,Iława,Rybacka,35
+Krzysztof,Piotrowski,Solec Kujawski,Kościuszki,44
+Anna,St�pie�,Gubin,Rycerska,3A
+Adrian,Zaj�c,Strzelce Krajeńskie,Jagiellońska,9
+Aleksandra,Sikorska,Drezdenko,Dworcowa,17
+Micha�,Gajda,Osieczna,Parkowa,12
+Marta,Zalewska,Warta,Wodna,30
+Daniel,Kowalczyk,Jeziorany,Chopina,5
+Kinga,Szewczyk,Trzcianka,Sienkiewicza,8
+Jakub,Jasi�ski,Nowe,Kościelna,23
+Natalia,Dudek,Dobiegniew,Ogrodowa,16
+Szymon,Zaj�c,Ińsko,Spacerowa,28
+Agnieszka,Kr�l,Prusice,Piastowska,21
+Piotr,Kaczor,Borne Sulinowo,Plac Wolności,37
+Weronika,Sikorska,Szamotuły,Mickiewicza,15/6
+Tomasz,Adamczyk,Osiek,Szkolna,42
+Karolina,Sobczak,Dobrzany,Łąkowa,20
+Artur,Zawisza,Brodnica,Kościuszki,4
+Julia,Jankowska,Dąbie,Słoneczna,10
+Marcin,Sikora,Mszana Dolna,Wiejska,29
+Oliwia,Duda,Janowiec Wielkopolski,Piłsudskiego,18
+Dawid,Szczepa�ski,Świerzawa,Sienkiewicza,45
+Katarzyna,Gajewska,Solec nad Wisłą,Parkowa,24
