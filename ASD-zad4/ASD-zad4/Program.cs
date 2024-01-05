@@ -31,7 +31,9 @@ namespace ASD_zad4
 
         public int _level;
 
-        public Element(string name, string city, string street, string address, string number, int level)
+        public Element _parent;
+
+        public Element(string name, string city, string street, string address, string number, int level, Element parent)
         {
             _name = name;
             _city = city;
@@ -40,8 +42,10 @@ namespace ASD_zad4
             _number = number;
 
             _level = level;
+
+            _parent = parent;
         }
-        public Element (Element prevElement, int level)
+        public Element (Element prevElement, int level, Element parent)
         {
             _name = prevElement._name;
             _city = prevElement._city;
@@ -50,6 +54,8 @@ namespace ASD_zad4
             _number = prevElement._number;
 
             _level = level;
+
+            _parent = parent;
         }
     }
 
