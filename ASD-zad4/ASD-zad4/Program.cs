@@ -31,7 +31,7 @@ namespace ASD_zad4
 
         public int _level;
 
-        public Element _parent;
+        public Element? _parent;
 
         public Element(string name, string city, string street, string address, string number, int level, Element parent)
         {
@@ -62,7 +62,7 @@ namespace ASD_zad4
     internal class Program
     {
         /// ============================= Variables =============================
-
+        public static List<Element> avl = new();
 
         /// ============================= Functions =============================
         public void RotationRL()
@@ -91,10 +91,19 @@ namespace ASD_zad4
             string pathOut = location + "wynik.txt";
 
             /// ========================= READING INPUT DATA ========================
+            StreamReader input = new StreamReader(pathIn);
 
+            string line = input.ReadLine();
 
+            while (line != null)
+            {
+                var lineSplit = line.Split(",");
+                avl.Add(new Element(lineSplit[0] + " " + lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[0], lineSplit[0], 0, null));
+                line = input.ReadLine();
+            }
+
+            input.Close();
             /// ============================= CALCULATING RESULST =============================
-
 
 
             /// ============================= SHOWING RESULTS =============================
