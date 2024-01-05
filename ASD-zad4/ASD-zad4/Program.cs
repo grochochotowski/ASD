@@ -41,7 +41,22 @@
 
 
         /// ============================= Functions =============================
-        
+        public void RotationRL()
+        {
+
+        }
+        public void RotationLR()
+        {
+
+        }
+        public void RotationR()
+        {
+
+        }
+        public void RotationL()
+        {
+
+        }
 
         /// =============================== Main ================================
         static void Main(string[] args)
