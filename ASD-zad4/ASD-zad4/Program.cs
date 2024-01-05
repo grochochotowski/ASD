@@ -22,15 +22,18 @@
         public string _city;
         public string _street;
         public string _address;
+        public string _number;
 
         public int _level;
 
-        public Element(string name, string city, string street, string address, int level)
+        public Element(string name, string city, string street, string address, string number, int level)
         {
             _name = name;
             _city = city;
             _street = street;
             _address = address;
+            _number = number;
+
             _level = level;
         }
     }
