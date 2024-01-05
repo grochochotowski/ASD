@@ -2,6 +2,7 @@
 using System.IO;
 using System.Net;
 using System.Xml.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ASD_zad4
 {
@@ -24,8 +25,6 @@ namespace ASD_zad4
     public class Element
     {
         public string _name;
-        public string _city;
-        public string _street;
         public string _address;
         public string _number;
 
@@ -33,11 +32,9 @@ namespace ASD_zad4
 
         public Element? _parent;
 
-        public Element(string name, string city, string street, string address, string number, int level, Element parent)
+        public Element(string name, string address, string number, int level, Element parent)
         {
             _name = name;
-            _city = city;
-            _street = street;
             _address = address;
             _number = number;
 
@@ -48,8 +45,6 @@ namespace ASD_zad4
         public Element (Element prevElement, int level, Element parent)
         {
             _name = prevElement._name;
-            _city = prevElement._city;
-            _street = prevElement._street;
             _address = prevElement._address;
             _number = prevElement._number;
 
@@ -99,6 +94,8 @@ namespace ASD_zad4
             while (line != null)
             {
                 var lineSplit = line.Split(",");
+                var name = lineSplit[0] + " " + lineSplit[1];
+                var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
 
                 // check if compare parent to new lower or higher
                 //      > if compare parent to new == check address
@@ -109,8 +106,38 @@ namespace ASD_zad4
                 // check if levels are ok
                 //      > if levels ok do nothing
                 //      > if levels not ok do something
+                if (avl.Count == 0)
+                {
+                    avl.Add(new Element(name, address, lineSplit[5], 0, null));
+                }
+                else
+                {
+                    if (string.Compare(avl[index-1]._name, name) == -1)
+                    {
+                        // go left?
+                    }
+                    else if (string.Compare(avl[index - 1]._name, name) == 1)
+                    {
+                        //go right?
+                    }
+                    else
+                    {
+                        if (string.Compare(avl[index - 1]._address, address) == -1)
+                        {
+                            // go left?
+                        }
+                        else if (string.Compare(avl[index - 1]._address, address) == 1)
+                        {
+                            //go right?
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Same data for {name}, {lineSplit[2]} {lineSplit[3]} {lineSplit[4]}, {lineSplit[5]}");
+                        }
+                    }
+                }
 
-                avl.Add(new Element(lineSplit[0] + " " + lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[0], lineSplit[0], 0, null));
+                avl.Add(new Element(name, address, lineSplit[5], 0, null));
 
 
                 line = input.ReadLine();
