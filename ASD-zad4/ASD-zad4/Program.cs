@@ -102,6 +102,8 @@ namespace ASD_zad4
                 line = input.ReadLine();
             }
 
+            Console.WriteLine(string.Compare("mayo", "text"));
+
             input.Close();
             /// ============================= CALCULATING RESULST =============================
 

@@ -1,0 +1,15 @@
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\bin\Debug\net8.0\ASD-zad4.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\bin\Debug\net8.0\ASD-zad4.deps.json
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\bin\Debug\net8.0\ASD-zad4.runtimeconfig.json
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\bin\Debug\net8.0\ASD-zad4.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\bin\Debug\net8.0\ASD-zad4.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.GeneratedMSBuildEditorConfig.editorconfig
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.AssemblyInfoInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.AssemblyInfo.cs
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.csproj.CoreCompileInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.sourcelink.json
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\refint\ASD-zad4.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ASD-zad4.genruntimeconfig.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\obj\Debug\net8.0\ref\ASD-zad4.dll
