@@ -132,7 +132,7 @@ namespace ASD_zad4
                         }
                         else
                         {
-                            Console.WriteLine($"Same data for {name}, {lineSplit[2]} {lineSplit[3]} {lineSplit[4]}, {lineSplit[5]}");
+                            Console.WriteLine($"Same data for {name}, {address}, {lineSplit[5]}");
                         }
                     }
                 }
