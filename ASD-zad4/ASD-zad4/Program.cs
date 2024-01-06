@@ -160,7 +160,7 @@ namespace ASD_zad4
         }
         public void PrintTree()
         {
-            PrintTree(root, "", true);
+            PrintTree(root!, "", true);
         }
         private static void PrintTree(Node node, string indent, bool last)
         {
@@ -245,8 +245,8 @@ namespace ASD_zad4
                 "2. Read AVL strucure\n" +
                 "3. Find element\n" +
                 "4. Add new element\n" +
-                "5. Remove Element\n" + 
-                "6. Read data from file \"Data\"\n" +
+                "5. Remove element\n" + 
+                "6. Read data from file \"dane\"\n" +
                 "7. Save phone book\n" +
                 "0. Exit";
             do
@@ -257,22 +257,22 @@ namespace ASD_zad4
 
                 switch(choice)
                 {
+                    // Exit
                     case 0:
                         return;
+                    // Read phone book
                     case 1:
                         Console.Clear();
-
                         avl.PrintInOrder();
-
                         Console.ReadLine();
                         break;
+                    // Show AVL structure
                     case 2:
                         Console.Clear();
-
                         avl.PrintTree();
-
                         Console.ReadLine();
                         break;
+                    // Find person
                     case 3:
                         Console.Clear();
 
@@ -282,24 +282,35 @@ namespace ASD_zad4
                         var address = Console.ReadLine();
 
                         var result = AVL.FindElement(name!, address!, avl.root!);
-                        Console.WriteLine($"\nRESULT\n{name}, {address}: {result._number}");
+                        if (result != null)
+                        {
+                            string resultNumber = result._number ?? "NO ABONAMENT";
+                            Console.WriteLine($"\nRESULT\n{name}, {address}, {resultNumber}");
+                        }
+                        else Console.WriteLine($"\nRESULT\nPerson with name: \"{name}\" and address: \"{address}\" does not exist in phone book");
 
                         Console.ReadLine();
                         break;
+                    // Add new element
                     case 4:
 
                         break;
+                    // Remove element
                     case 5:
 
                         break;
+                    // Read data from file
                     case 6:
 
                         break;
+                    // Save phone book
                     case 7:
 
                         break;
+                    // Error
                     default:
                         Console.WriteLine($"There is no option {choice}");
+                        Console.ReadLine();
                         break;
                 }
             } while (choice != 0);

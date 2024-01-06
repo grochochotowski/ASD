@@ -4,7 +4,7 @@ Sophie Chang,Gdansk ul. Brzozowa 21/7,345-678-901
 David Patel,Lodz pl. Zielony 14,456-789-012
 Mia Nguyen,Wroclaw ul. Polna 8,567-890-123
 Ethan Sullivan,Poznan al. Spacerowa 33/12,678-901-234
-Isabella Khan,Szczecin ul. Akacjowa 16,789-012-345
+Isabella Khan,Szczecin ul. Akacjowa 16,
 Noah García,Bydgoszcz pl. Rozany 7,890-123-456
 Olivia Kim,Lublin ul. Slonecznikowa 25/9,901-234-567
 Lucas Anderson,Bialystok al. Wiosenna 11,210-543-876
