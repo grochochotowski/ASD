@@ -190,25 +190,19 @@ namespace ASD_zad4
         // Find element
         public static Node FindElement(string name, string address, Node node)
         {
+            if (node == null)
+                return null!;
+
             int compareName = string.Compare(name, node._name);
             int compareAddress = string.Compare(address, node._address);
-            int compare = compareName;
 
-            if (compareName == 0)
-            {
-                if (compareAddress == 0)
-                    return node;
-                compare = compareAddress;
-            }       
+            if (compareName == 0 && compareAddress == 0)
+                return node;
 
-            if (compare > 0)
-                if (node._left == null) return null!;
-                else FindElement(name, address, node._left!);
-            else if (compare < 0)
-                if (node._right == null) return null!;
-            FindElement(name, address, node._left!);
-
-            return node;
+            if (compareName < 0 || (compareName == 0 && compareAddress < 0))
+                return FindElement(name, address, node._left!);
+            else
+                return FindElement(name, address, node._right!);
         }
 
     }
