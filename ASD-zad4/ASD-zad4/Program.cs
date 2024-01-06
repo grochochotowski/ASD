@@ -185,16 +185,17 @@ namespace ASD_zad4
     {
         static void Main(string[] args)
         {
-            AVL avl = new();
+            
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
             string pathIn = location + "tempDane.txt";
             string pathOut = location + "wynik.txt";
 
-            /// ========================= READING INPUT DATA ========================
-            StreamReader input = new StreamReader(pathIn);
+            // Reading data & creating a tree
+            StreamReader input = new(pathIn);
 
             string line = input.ReadLine()!;
+            AVL avl = new();
 
             while (line != null)
             {
@@ -211,8 +212,10 @@ namespace ASD_zad4
 
             input.Close();
 
+            // Main menu
 
-            /// ========================= DISPLAY RESULT DATA ========================
+
+            // Displaying tree
             //AVL.PrintInOrder(avl.root);
             avl.PrintTree();
 
