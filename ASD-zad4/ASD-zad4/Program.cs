@@ -91,7 +91,7 @@ namespace ASD_zad4
             AVL avl = new();
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
-            string pathIn = location + "dane.txt";
+            string pathIn = location + "tempDane.txt";
             string pathOut = location + "wynik.txt";
 
             /// ========================= READING INPUT DATA ========================
