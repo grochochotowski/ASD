@@ -46,11 +46,11 @@ namespace ASD_zad4
     {
         public Node? root;
 
+        // Inserting
         public void Insert(Node newNode)
         {
             root = InsertNode(newNode, root!);
         }
-
         private static Node InsertNode(Node newNode, Node node)
         {
             if (node == null)
@@ -75,6 +75,7 @@ namespace ASD_zad4
             return node;
         }
 
+        // Balancing
         private static Node Rebalance(Node node)
         {
             int balance = Height(node._left) - Height(node._right);
@@ -104,7 +105,6 @@ namespace ASD_zad4
 
             return node;
         }
-
         private static int Height(Node? node)
         {
             if (node == null)
@@ -113,6 +113,8 @@ namespace ASD_zad4
             return 1 + Math.Max(Height(node._left), Height(node._right));
         }
 
+
+        // Rotations
         private static Node RotateRight(Node node)
         {
             Node pivot = node._left!;
@@ -138,6 +140,8 @@ namespace ASD_zad4
             return RotateRight(node);
         }
 
+
+        // Printing tree
         public static void PrintInOrder(Node? node)
         {
             if (node != null)
@@ -170,7 +174,6 @@ namespace ASD_zad4
                 PrintTree(node._right, indent, true);
             }
         }
-
         public void PrintTree()
         {
             PrintTree(root, "", true);
