@@ -3,6 +3,7 @@ using System.IO;
 using System.Net;
 using System.Xml.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Linq.Expressions;
 
 namespace ASD_zad4
 {
@@ -30,9 +31,10 @@ namespace ASD_zad4
 
         public int _level;
 
-        public Element? _parent;
+        public Element? _left;
+        public Element? _right;
 
-        public Element(string name, string address, string number, int level, Element parent)
+        public Element(string name, string address, string number, int level, Element left, Element right)
         {
             _name = name;
             _address = address;
@@ -40,9 +42,10 @@ namespace ASD_zad4
 
             _level = level;
 
-            _parent = parent;
+            _left = left;
+            _right = right;
         }
-        public Element (Element prevElement, int level, Element parent)
+        public Element (Element prevElement, int level, Element left, Element right)
         {
             _name = prevElement._name;
             _address = prevElement._address;
@@ -50,7 +53,8 @@ namespace ASD_zad4
 
             _level = level;
 
-            _parent = parent;
+            _left = left;
+            _right = right;
         }
     }
 
@@ -60,6 +64,15 @@ namespace ASD_zad4
         public static List<Element> avl = [];
 
         /// ============================= Functions =============================
+        public void GoLeft()
+        {
+
+        }
+        public void GoRight()
+        {
+
+        }
+        
         public void RotationRL()
         {
 
@@ -108,7 +121,7 @@ namespace ASD_zad4
                 //      > if levels not ok do something
                 if (avl.Count == 0)
                 {
-                    avl.Add(new Element(name, address, lineSplit[5], 0, null));
+                    avl.Add(new Element(name, address, lineSplit[5], 0, null, null));
                 }
                 else
                 {
