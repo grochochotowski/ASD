@@ -5,6 +5,7 @@ using System.Xml.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Linq.Expressions;
 using System.ComponentModel.Design;
+using System;
 
 namespace ASD_zad4
 {
@@ -48,9 +49,29 @@ namespace ASD_zad4
     {
         public Node? root;
 
-        public void Insert(Node newNode, Node prevNode)
+        public void Insert(Node newNode)
         {
+            root = InsertNode(newNode, root!);
+        }
 
+        private static Node InsertNode(Node newNode, Node node)
+        {
+            if (node == null)
+                return newNode;
+
+            int compare = string.Compare(newNode._name, node._name);
+
+            if (compare < 0)
+                node._left = InsertNode(node._left!, newNode);
+            else if (compare > 0)
+                node._right = InsertNode(node._right!, newNode);
+            else
+            {
+                Console.WriteLine($"Same data for {newNode._name}, {newNode._address}, {newNode._number}");
+                return node;
+            }
+
+            return node;
         }
     }
 
@@ -77,21 +98,12 @@ namespace ASD_zad4
                 var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
                 var newNode = new Node(name, address, lineSplit[5], 0);
 
-                if (index == 0) avl.root = newNode;
-                else avl.Insert(newNode, avl.root!);
+                avl.Insert(newNode);
 
                 line = input.ReadLine()!;
             }
-            //Console.WriteLine($"Same data for {name}, {address}, {lineSplit[5]}");
-            //string.Compare(avl[index - 1]._name, name
 
             input.Close();
-            /// ============================= CALCULATING RESULST =============================
-
-
-            /// ============================= SHOWING RESULTS =============================
-
-
 
             Console.ReadLine(); // Program written by Michał Grochowski
         }
