@@ -218,7 +218,7 @@ namespace ASD_zad4
             string book = location + "ksiazka.txt";
 
             // Reading data & creating a tree
-            StreamReader input = new(data);
+            StreamReader input = new(book);
 
             string line = input.ReadLine()!;
             AVL avl = new();
@@ -242,8 +242,8 @@ namespace ASD_zad4
             // Main menu
             int choice;
             string choices =
-                "1. Read phone book\n" +
-                "2. Read AVL strucure\n" +
+                "1. Display phone book\n" +
+                "2. Display AVL strucure\n" +
                 "3. Find element\n" +
                 "4. Add new element\n" +
                 "5. Remove element\n" + 
@@ -325,6 +325,7 @@ namespace ASD_zad4
 
                         Console.Clear();
                         Console.WriteLine("Data imported - avl strucute overwriten");
+                        Console.ReadLine();
 
                         break;
                     // Save phone book
@@ -333,7 +334,7 @@ namespace ASD_zad4
                         break;
                     // Error
                     default:
-                        Console.WriteLine($"There is no option {choice}");
+                        Console.WriteLine($"There is no option {choice} - press anything to continue");
                         Console.ReadLine();
                         break;
                 }
