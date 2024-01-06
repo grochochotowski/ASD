@@ -23,7 +23,7 @@ namespace ASD_zad4
     // 2.  Przygotuj plik do testów – co najmniej 100 abonentów wraz z danymi
     // 3.  Przetestowanie poprawności zaimplementowanych operacji i ustalenie ich złożoności czasowej
 
-    public class Element
+    public class Node
     {
         public string _name;
         public string _address;
@@ -31,10 +31,10 @@ namespace ASD_zad4
 
         public int _level;
 
-        public Element? _left;
-        public Element? _right;
+        public Node? _left;
+        public Node? _right;
 
-        public Element(string name, string address, string number, int level)
+        public Node(string name, string address, string number, int level)
         {
             _name = name;
             _address = address;
@@ -47,10 +47,10 @@ namespace ASD_zad4
     internal class Program
     {
         /// ============================= Variables =============================
-        public static List<Element> avl = [];
+        public static List<Node> avl = [];
 
         /// ============================= Functions =============================
-        public static void GoLeft(Element newElement, Element parent)
+        public static void GoLeft(Node newElement, Node parent)
         {
             if ()
             {
@@ -98,7 +98,7 @@ namespace ASD_zad4
                 var lineSplit = line.Split(",");
                 var name = lineSplit[0] + " " + lineSplit[1];
                 var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
-                var newElement = new Element(name, address, lineSplit[5], 0);
+                var newElement = new Node(name, address, lineSplit[5], 0);
 
                 // check if compare parent to new lower or higher
                 //      > if compare parent to new == check address
