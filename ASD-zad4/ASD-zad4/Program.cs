@@ -32,17 +32,14 @@ namespace ASD_zad4
         public string _number;
 
         public int _balance;
-
         public Node? _left;
         public Node? _right;
 
-        public Node(string name, string address, string number, int balance)
+        public Node(string name, string address, string number)
         {
             _name = name;
             _address = address;
             _number = number;
-
-            _balance = balance;
         }
     }
     public class AVL
@@ -105,9 +102,10 @@ namespace ASD_zad4
             while (line != null)
             {
                 var lineSplit = line.Split(",");
-                var name = lineSplit[0] + " " + lineSplit[1];
-                var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
-                var newNode = new Node(name, address, lineSplit[5], 0);
+                var name = lineSplit[0];
+                var address = lineSplit[1];
+                var number = lineSplit[2];
+                var newNode = new Node(name, address, number);
 
                 avl.Insert(newNode);
 
