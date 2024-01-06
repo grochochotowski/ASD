@@ -29,13 +29,13 @@ namespace ASD_zad4
     {
         public string _name;
         public string _address;
-        public string _number;
+        public string? _number;
 
         public int _balance;
         public Node? _left;
         public Node? _right;
 
-        public Node(string name, string address, string number)
+        public Node(string name, string address, string? number)
         {
             _name = name;
             _address = address;
