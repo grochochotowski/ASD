@@ -188,8 +188,26 @@ namespace ASD_zad4
 
 
         // Find element
-        public Node FindElement(string name, string address, Node node)
+        public static Node FindElement(string name, string address, Node node)
         {
+            int compareName = string.Compare(name, node._name);
+            int compareAddress = string.Compare(address, node._address);
+            int compare = compareName;
+            if (compareName == 0)
+            {
+                if (compareAddress == 0)
+                    return node;
+                compare = compareAddress;
+            }       
+
+
+            if (compare > 0)
+                if (node._left == null) return null!;
+                else FindElement(name, address, node._left!);
+            else if (compare < 0)
+                if (node._right == null) return null!;
+            FindElement(name, address, node._left!);
+
             return node;
         }
 
@@ -269,8 +287,9 @@ namespace ASD_zad4
                         Console.WriteLine("\nEnter address:");
                         var address = Console.ReadLine();
 
-                        var result = avl.FindElement(name!, address!, avl.root!);
-                        Console.WriteLine($"{name}, {address}: {result}");
+                        var result = AVL.FindElement(name!, address!, avl.root!);
+                        Console.WriteLine($"\nRESULT\n{name}, {address}: {result._number}");
+
                         Console.ReadLine();
                         break;
                     case 4:
