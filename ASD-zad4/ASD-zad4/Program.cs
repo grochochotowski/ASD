@@ -6,6 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Linq.Expressions;
 using System.ComponentModel.Design;
 using System;
+using System.Runtime.CompilerServices;
 
 namespace ASD_zad4
 {
@@ -46,6 +47,7 @@ namespace ASD_zad4
     {
         public Node? root;
 
+
         // Inserting
         public void Insert(Node newNode)
         {
@@ -74,6 +76,7 @@ namespace ASD_zad4
 
             return node;
         }
+
 
         // Balancing
         private static Node Rebalance(Node node)
@@ -142,7 +145,11 @@ namespace ASD_zad4
 
 
         // Printing tree
-        public static void PrintInOrder(Node? node)
+        public void PrintInOrder()
+        {
+            PrintInOrder(root);
+        }
+        private static void PrintInOrder(Node? node)
         {
             if (node != null)
             {
@@ -151,7 +158,11 @@ namespace ASD_zad4
                 PrintInOrder(node._right);
             }
         }
-        public void PrintTree(Node node, string indent, bool last)
+        public void PrintTree()
+        {
+            PrintTree(root, "", true);
+        }
+        private static void PrintTree(Node node, string indent, bool last)
         {
             if (node != null)
             {
@@ -170,13 +181,16 @@ namespace ASD_zad4
 
                 Console.WriteLine(node._name);
 
-                PrintTree(node._left, indent, false);
-                PrintTree(node._right, indent, true);
+                PrintTree(node._left!, indent, false);
+                PrintTree(node._right!, indent, true);
             }
         }
-        public void PrintTree()
+
+
+        // Find element
+        public Node FindElement(string name, string address, Node node)
         {
-            PrintTree(root, "", true);
+            return node;
         }
 
     }
@@ -213,11 +227,70 @@ namespace ASD_zad4
             input.Close();
 
             // Main menu
+            int choice;
+            string choices =
+                "1. Read phone book\n" +
+                "2. Read AVL strucure\n" +
+                "3. Find element" +
+                "4. Add new element\n" +
+                "5. Remove Element\n" + 
+                "6. Read data from file \"Data\"\n" +
+                "7. Save phone book\n" +
+                "0. Exit";
+            do
+            {
+                Console.Clear();
+                Console.WriteLine(choices);
+                choice = Convert.ToInt32(Console.ReadLine());
 
+                switch(choice)
+                {
+                    case 0:
+                        return;
+                    case 1:
+                        Console.Clear();
 
-            // Displaying tree
-            //AVL.PrintInOrder(avl.root);
-            avl.PrintTree();
+                        avl.PrintInOrder();
+
+                        Console.ReadLine();
+                        break;
+                    case 2:
+                        Console.Clear();
+
+                        avl.PrintTree();
+
+                        Console.ReadLine();
+                        break;
+                    case 3:
+                        Console.Clear();
+
+                        Console.WriteLine("\nEnter name:");
+                        var name = Console.ReadLine();
+                        Console.WriteLine("\nEnter address:");
+                        var address = Console.ReadLine();
+
+                        var result = avl.FindElement(name!, address!, avl.root!);
+                        Console.WriteLine($"{name}, {address}: {result}");
+                        Console.ReadLine();
+                        break;
+                    case 4:
+
+                        break;
+                    case 5:
+
+                        break;
+                    case 6:
+
+                        break;
+                    case 7:
+
+                        break;
+                    default:
+                        Console.WriteLine($"There is no option {choice}");
+                        break;
+                }
+            } while (choice != 0);
+
 
             Console.ReadLine(); // Program written by Michał Grochowski
         }
