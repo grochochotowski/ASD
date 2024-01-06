@@ -64,28 +64,31 @@ namespace ASD_zad4
         public static List<Element> avl = [];
 
         /// ============================= Functions =============================
-        public void GoLeft()
+        public static void GoLeft()
         {
+            if ()
+            {
 
+            }
         }
-        public void GoRight()
+        public static void GoRight()
         {
 
         }
         
-        public void RotationRL()
+        public static void RotationRL()
         {
 
         }
-        public void RotationLR()
+        public static void RotationLR()
         {
 
         }
-        public void RotationR()
+        public static void RotationR()
         {
 
         }
-        public void RotationL()
+        public static void RotationL()
         {
 
         }
@@ -125,6 +128,9 @@ namespace ASD_zad4
                 }
                 else
                 {
+                    GoLeft();
+                    GoRight();
+                    
                     if (string.Compare(avl[index-1]._name, name) == -1)
                     {
                         // go left?
