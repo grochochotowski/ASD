@@ -82,6 +82,16 @@ namespace ASD_zad4
 
             return 1 + Math.Max(Height(node._left), Height(node._right));
         }
+
+        public void PrintInOrder(Node? node)
+        {
+            if (node != null)
+            {
+                PrintInOrder(node._left);
+                Console.WriteLine($"{node._name}, {node._address}, {node._number}");
+                PrintInOrder(node._right);
+            }
+        }
     }
 
     internal class Program
@@ -113,6 +123,8 @@ namespace ASD_zad4
             }
 
             input.Close();
+
+            avl.PrintInOrder(avl.root);
 
             Console.ReadLine(); // Program written by Michał Grochowski
         }
