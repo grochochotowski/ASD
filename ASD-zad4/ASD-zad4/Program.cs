@@ -34,27 +34,13 @@ namespace ASD_zad4
         public Element? _left;
         public Element? _right;
 
-        public Element(string name, string address, string number, int level, Element left, Element right)
+        public Element(string name, string address, string number, int level)
         {
             _name = name;
             _address = address;
             _number = number;
 
             _level = level;
-
-            _left = left;
-            _right = right;
-        }
-        public Element (Element prevElement, int level, Element left, Element right)
-        {
-            _name = prevElement._name;
-            _address = prevElement._address;
-            _number = prevElement._number;
-
-            _level = level;
-
-            _left = left;
-            _right = right;
         }
     }
 
@@ -64,7 +50,7 @@ namespace ASD_zad4
         public static List<Element> avl = [];
 
         /// ============================= Functions =============================
-        public static void GoLeft()
+        public static void GoLeft(Element newElement, Element parent)
         {
             if ()
             {
@@ -105,13 +91,14 @@ namespace ASD_zad4
             StreamReader input = new StreamReader(pathIn);
 
             string line = input.ReadLine();
-            int index = 1;
+            int index = 0;
 
             while (line != null)
             {
                 var lineSplit = line.Split(",");
                 var name = lineSplit[0] + " " + lineSplit[1];
                 var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
+                var newElement = new Element(name, address, lineSplit[5], 0);
 
                 // check if compare parent to new lower or higher
                 //      > if compare parent to new == check address
@@ -122,14 +109,15 @@ namespace ASD_zad4
                 // check if levels are ok
                 //      > if levels ok do nothing
                 //      > if levels not ok do something
+
                 if (avl.Count == 0)
                 {
-                    avl.Add(new Element(name, address, lineSplit[5], 0, null, null));
+                    avl.Add(newElement);
                 }
                 else
                 {
-                    GoLeft();
-                    GoRight();
+                    GoLeft(newElement, avl[index-1]);
+                    GoRight(newElement, avl[index - 1]);
                     
                     if (string.Compare(avl[index-1]._name, name) == -1)
                     {
@@ -156,9 +144,7 @@ namespace ASD_zad4
                     }
                 }
 
-                avl.Add(new Element(name, address, lineSplit[5], 0, null));
-
-
+                index++;
                 line = input.ReadLine();
             }
 
