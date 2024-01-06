@@ -1,100 +1,100 @@
-Adam,Kowalski,Gdynia,Kwiatowa,17,395756387
-Marta,Nowak,Olsztyn,Słoneczna,29/5,090496750
-Piotr,Wi�niewski,Wałbrzych,Parkowa,8,468203100
-Anna,D�browska,Tarnów,Kasprowicza,12/3,044529258
-Micha�,Lewandowski,Kalisz,Mickiewicza,5,598647213
-Katarzyna,W�jcik,Konin,Polna,21,589410720
-Jakub,Kami�ski,Piła,Leśna,14/7,703265281
-Natalia,Koz�owska,Tczew,Królewska,33,860634455
-Szymon,Jankowski,Jarosław,Sikorskiego,19,916858921
-Agnieszka,Zieli�ska,Słupsk,Podgórna,7,180417936
-Marcin,Szyma�ski,Starogard Gdański,Toruńska,11/2,448501957
-Kinga,Wo�niak,Sandomierz,Wąska,3,366052944
-Pawe�,Kubiak,Zamość,Spokojna,16,469500303
-Karolina,Kowalczyk,Ostrołęka,Mickiewicza,22,183934030
-Tomasz,M�ynarski,Biała Podlaska,Kościuszki,4/6,834549734
-Monika,Pawlak,Ełk,Słowiańska,25,398259289
-Grzegorz,Adamczyk,Nowy Dwór Mazowiecki,Zielona,30/9,705108612
-Ewa,Sikorska,Pisz,Jana Pawła II,18,910364347
-Damian,Nowicki,Koło,Wojska Polskiego,7A,707532560
-Julia,Malinowska,Wadowice,Książęca,10B,385895757
-Rafa�,Zaj�c,Zawiercie,Mickiewicza,13,160297622
-Aleksandra,G�rska,Wyszków,Piłsudskiego,9,094758904
-�ukasz,Tomczak,Wągrowiec,Sienkiewicza,11/4,588067643
-Dorota,Jab�o�ska,Płońsk,Jana III Sobieskiego,20,459479232
-Adrian,Kr�l,Łęczna,Bursztynowa,6,724109000
-Izabela,Wrona,Brzesko,Jagiellońska,23,053860524
-Artur,Duda,Pruszcz Gdański,Chmielna,28,684531565
-Kamila,Piotrowska,Mszczonów,Kościelna,15,120540540
-Robert,Grabowski,Działdowo,Jana Pawła II,2/1,901387349
-Oliwia,BaranMazur,Grajewo,Mickiewicza,27,367810977
-Mateusz,Michalski,Sieradz,Poniatowskiego,19,487441596
-Justyna,Nowacka,Białogard,Kopernika,14,555684429
-Daniel,Kaczmarek,Krosno Odrzańskie,Parkowa,31,020712809
-Magdalena,Zawadzka,Namysłów,Kościelna,9/2,534288438
-Przemys�aw,Kowal,Węgorzewo,Targowa,5A,946415957
-Dominika,Wieczorek,Ostróda,Konopnickiej,36,971942223
-Marek,Kwiatkowski,Kościerzyna,Rynek,3/7,885213167
-Wiktoria,Nowicka,Oleśnica,Kilińskiego,26,765316802
-Rados�aw,Wojciechowski,Giżycko,Zamkowa,8,923128341
-Zuzanna,Jastrz�bska,Trzebnica,Słowackiego,2A/4,595027444
-Krzysztof,Wasilewski,Radomsko,Mickiewicza,18,418950630
-Anna,Urban,Krapkowice,Słowackiego,5/9,001413257
-Maciej,Mazur,Olecko,Długa,27,223736580
-Weronika,Adamczak,Ostrów Mazowiecka,Kościuszki,14,051956910
-Micha�,Krajewski,Pleszew,Leśna,32,000142477
-Patrycja,Paw�owska,Wolin,Piastowska,6,195578127
-Adam,Nowakowski,Kwidzyn,Sienkiewicza,23/2,277362054
-Paulina,Krupa,Oleśno,Kwiatowa,11,540665802
-Kamil,Kowalewski,Prudnik,Narutowicza,29,245892614
-Agata,Dzi�cio�,Kętrzyn,Kopernika,4/7,371118314
-Grzegorz,Zieli�ski,Złotów,Parkowa,16,192268849
-Martyna,G�rka,Łask,Jana Pawła II,21,025504776
-Tomasz,Majewski,Lidzbark Warmiński,Słoneczna,38,190201143
-Karolina,Zi�ba,Pisz,3 Maja,9,244471356
-Rafa�,Sikora,Ustka,Portowa,20,664124601
-Aleksandra,Olszewska,Kłodawa,Kwiatowa,7,232352477
-Marcin,Kwiatkowski,Wieliczka,Krakowska,12,292730866
-Monika,Piotrowska,Dębica,Sikorskiego,24/3,921343813
-Jakub,Gajewski,Młynary,Szkolna,5,464609957
-Natalia,Kaczmarczyk,Przasnysz,Mickiewicza,19,395669646
-Damian,Zalewski,Frombork,Piwna,8,965000481
-Magdalena,Kr�l,Wschowa,Staromiejska,33,954324319
-Micha�,Sikorski,Międzyrzecz,Kwiatowa,10,830496451
-Kamila,Kubiak,Nowy Staw,Lipowa,25,806416465
-Pawe�,Jarosz,Jastarnia,Nadmorska,6,452994426
-Alicja,J�drzejczyk,Lidzbark,Kościelna,11/4,357396031
-Mateusz,Walczak,Puck,Wiejska,14,402044780
-Izabela,Kr�l,Drawsko Pomorskie,Chopina,28,548738271
-Adam,Sobczak,Prószków,Polna,36,143882486
-Katarzyna,Sikora,Nidzica,Sienkiewicza,17,007211690
-Robert,Nowak,Kowary,Parkowa,22,251124942
-Paulina,Kaczmarek,Nakło nad Notecią,Piastowska,31,335624972
-Rados�aw,Szewczyk,Ciechanów,Narutowicza,40,426148217
-Agnieszka,Sobczyk,Pionki,Leśna,7,808920425
-�ukasz,G�rski,Lubawa,Mickiewicza,13/5,380953350
-Dominika,Pawlak,Bytów,Grunwaldzka,26,258863794
-Marcin,Zawadzki,Cedynia,Słowiańska,19,225028160
-Monika,Wo�niak,Iława,Rybacka,35,246331667
-Krzysztof,Piotrowski,Solec Kujawski,Kościuszki,44,292088358
-Anna,St�pie�,Gubin,Rycerska,3A,001603420
-Adrian,Zaj�c,Strzelce Krajeńskie,Jagiellońska,9,929562729
-Aleksandra,Sikorska,Drezdenko,Dworcowa,17,014213159
-Micha�,Gajda,Osieczna,Parkowa,12,309460713
-Marta,Zalewska,Warta,Wodna,30,730787960
-Daniel,Kowalczyk,Jeziorany,Chopina,5,200622047
-Kinga,Szewczyk,Trzcianka,Sienkiewicza,8,319356438
-Jakub,Jasi�ski,Nowe,Kościelna,23,160239936
-Natalia,Dudek,Dobiegniew,Ogrodowa,16,280352556
-Szymon,Zaj�c,Ińsko,Spacerowa,28,504539273
-Agnieszka,Kr�l,Prusice,Piastowska,21,546569462
-Piotr,Kaczor,Borne Sulinowo,Plac Wolności,37,659684949
-Weronika,Sikorska,Szamotuły,Mickiewicza,15/6,746209227
-Tomasz,Adamczyk,Osiek,Szkolna,42,220987933
-Karolina,Sobczak,Dobrzany,Łąkowa,20,497356750
-Artur,Zawisza,Brodnica,Kościuszki,4,082702724
-Julia,Jankowska,Dąbie,Słoneczna,10,877875579
-Marcin,Sikora,Mszana Dolna,Wiejska,29,938774459
-Oliwia,Duda,Janowiec Wielkopolski,Piłsudskiego,18,202583856
-Dawid,Szczepa�ski,Świerzawa,Sienkiewicza,45,041728386
-Katarzyna,Gajewska,Solec nad Wisłą,Parkowa,24,766644189
+Emily Johnson,Warszawa ul. Kwiatowa 5/3,123-456-789
+Marcus Rodriguez,Kraków al. Słoneczna 10,234-567-890
+Sophie Chang,Gdańsk ul. Brzozowa 21/7,345-678-901
+David Patel,Łódź pl. Zielony 14,456-789-012
+Mia Nguyen,Wrocław ul. Polna 8,567-890-123
+Ethan Sullivan,Poznań al. Spacerowa 33/12,678-901-234
+Isabella Khan,Szczecin ul. Akacjowa 16,789-012-345
+Noah García,Bydgoszcz pl. Różany 7,890-123-456
+Olivia Kim,Lublin ul. Słonecznikowa 25/9,901-234-567
+Lucas Anderson,Białystok al. Wiosenna 11,210-543-876
+Ava Gupta,Katowice ul. Topolowa 3/5,321-654-987
+Liam Chavez,Gdynia pl. Nadmorski 18,432-765-098
+Amelia Li,Częstochowa ul. Leśna 20,543-876-109
+Daniel Smith,Radom al. Dębowa 6,654-987-210
+Charlotte Brown,Sosnowiec ul. Kwiatowa 12/4,765-098-321
+Benjamin Alves,Toruń pl. Powstańców 9,876-109-432
+Harper Dubois,Kielce ul. Ogrodowa 30,987-210-543
+Alexander Chowdhury,Rzeszów al. Miodowa 17/2,098-321-654
+Evelyn González,Gliwice ul. Zielona 22,909-212-121
+James O'Malley,Zabrze pl. Sportowy 13,808-121-212
+Grace MacKenzie,Olsztyn ul. Podgórska 5/8,707-232-323
+William Santos,Bielsko-Biała al. Parkowa 28,606-343-434
+Scarlett Ibrahim,Bytom ul. Polna 7,505-454-545
+Henry Dubois,Zielona Góra pl. Kwiatowy 14/6,404-565-656
+Abigail Rahman,Rybnik ul. Słoneczna 19,303-676-767
+Michael Novak,Tychy al. Leśna 10,202-787-878
+Madison Duval,Opole ul. Brzozowa 11/2,101-898-989
+Aiden Rossi,Gorzów Wielkopolski pl. Jesienny 23,212-909-090
+Lily Kaur,Płock ul. Spacerowa 16,323-010-101
+Christopher Wright,Dąbrowa Górnicza al. Kwiatowa 8/11,434-121-212
+Victoria Nascimento,Elbląg ul. Sosnowa 4,545-232-323
+Logan Ortiz,Wałbrzych pl. Ogrodowy 29,656-343-434
+Zoe Costa,Włocławek ul. Lipowa 6,767-454-545
+Andrew Singh,Tarnów al. Dębowa 15,878-565-656
+Penelope Silva,Chorzów ul. Leśna 10/5,989-676-767
+Samuel De Luca,Koszalin pl. Miodowy 31,090-787-878
+Aria Fujimoto,Kalisz ul. Zielona 9,201-898-989
+Matthew Lévesque,Legnica al. Słoneczna 18,312-909-090
+Avery Das,Grudziądz ul. Parkowa 22/3,423-010-101
+Joshua Abramovich,Jaworzno pl. Kwiatowy 13,534-121-212
+Luna Vargas,Słupsk ul. Brzozowa 17,645-232-323
+Gabriel Petrov,Jastrzębie-Zdrój al. Spacerowa 20,756-343-434
+Addison O'Connor,Nowy Sącz ul. Podgórska 12,867-454-545
+Dylan Choudhury,Jelenia Góra pl. Nadmorski 5/6,978-565-656
+Sofia Vasquez,Siedlce ul. Leśna 24,089-676-767
+Oliver Papadopoulos,Mysłowice al. Lipowa 9/4,190-787-878
+Ellie Park,Konin ul. Słonecznikowa 14,201-898-989
+Jack Navarro,Piła pl. Zielony 7,312-909-090
+Aubrey Wang,Piotrków Trybunalski ul. Kwiatowa 18,423-010-101
+Luke Jensen,Inowrocław al. Wiosenna 26/8,534-121-212
+Natalie Barros,Lubin ul. Polna 15,645-232-323
+Isaac Morales,Ostrów Wielkopolski pl. Topolowy 27,756-343-434
+Hannah Di Matteo,Suwałki ul. Brzozowa 31,867-454-545
+Ryan Obi,Gniezno al. Dębowa 3/7,978-565-656
+Clara Dubois,Stargard Szczeciński ul. Słoneczna 20,089-676-767
+Julian Cheung,Legionowo pl. Kwiatowy 2,290-787-878
+Leah Ibrahim,Włoszczowa ul. Leśna 13/9,301-898-989
+Christian Kim,Tarnobrzeg al. Podgórska 11,412-909-090
+Ariana Costa,Kędzierzyn-Koźle ul. Parkowa 5,523-010-101
+Brayden Rodriguez,Piekary Śląskie pl. Spacerowy 16/6,634-121-212
+Gabriella Santiago,Zamość ul. Lipowa 8,745-232-323
+Nolan Dupont,Świdnica al. Sosnowa 19,856-343-434
+Harper Patel,Biała Podlaska ul. Kwiatowa 23,967-454-545
+Adam Nguyen,Bielsk Podlaski pl. Nadmorski 10,078-565-656
+Sarah O'Malley,Otwock ul. Brzozowa 14,189-676-767
+Josiah Fernandez,Puławy al. Polna 28/3,290-787-878
+Stella Leblanc,Wejherowo ul. Wiosenna 6,401-898-989
+Levi Russo,Racibórz pl. Kwiatowy 22,512-909-090
+Aurora García,Żory ul. Leśna 9,623-010-101
+Zachary Lopes,Starachowice al. Słoneczna 17,734-121-212
+Paisley Dubois,Żyrardów ul. Słonecznikowa 25/5,845-232-323
+John Sato,Krosno pl. Zielony 12,956-343-434
+Madeline Martinez,Skierniewice ul. Parkowa 3,067-454-545
+Dominic Santos,Czechowice-Dziedzice al. Wiosenna 16,178-565-656
+Eliana Costa,Jarosław ul. Lipowa 21,289-676-767
+Caleb Kovacs,Sanok pl. Brzozowy 30,390-787-878
+Maya Das,Mielec ul. Słoneczna 11/7,401-898-989
+Hunter Li,Nowa Sól al. Spacerowa 29,512-909-090
+Julia Petrov,Oświęcim ul. Kwiatowa 10,623-010-101
+Sebastian Silva,Piaseczno pl. Dębowa 27,734-121-212
+Mackenzie Chan,Swarzędz ul. Leśna 18,845-232-323
+Grayson Lee,Nowy Targ al. Sosnowa 4/6,956-343-434
+Eva Gomez,Legionowo ul. Brzozowa 7,067-454-545
+Wyatt Almeida,Ełk pl. Wiosenny 20,178-565-656
+Taylor Nascimento,Oleśnica ul. Parkowa 14,289-676-767
+Roberta Costa,Kołobrzeg al. Kwiatowy 25,390-787-878
+Lincoln Kim,Police ul. Lipowa 9/2,501-898-989
+Naomi Patel,Bogatynia pl. Spacerowy 11,612-909-090
+Hudson Dubois,Augustów ul. Słoneczna 16,723-010-101
+Kaylee Kaur,Pruszków al. Leśna 23,834-121-212
+Jordan Costa,Świętochłowice ul. Podgórska 26,945-232-323
+Lillian Santos,Ostrołęka pl. Zielony 8/5,056-343-434
+Cooper Gonzalez,Zawiercie ul. Kwiatowa 19,167-454-545
+Alexa Das,Ostróda al. Słoneczna 15,278-565-656
+Tristan Ramirez,Bolesławiec ul. Parkowa 7/9,389-676-767
+Paisley Saito,Żagań pl. Brzozowy 32,490-787-878
+Jonah Mendez,Knurów ul. Wiosenna 13,501-898-989
+Serenity Chen,Szczytno al. Lipowa 18,612-909-090
+Jason Papadopoulos,Gostynin ul. Leśna 5,723-010-101
+Elise Dubois,Krapkowice pl. Nadmorski 24,834-121-212
