@@ -214,11 +214,11 @@ namespace ASD_zad4
             
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
-            string pathIn = location + "tempDane.txt";
-            string pathOut = location + "ksiazka.txt";
+            string data = location + "tempDane.txt";
+            string book = location + "ksiazka.txt";
 
             // Reading data & creating a tree
-            StreamReader input = new(pathIn);
+            StreamReader input = new(data);
 
             string line = input.ReadLine()!;
             AVL avl = new();
@@ -247,7 +247,7 @@ namespace ASD_zad4
                 "3. Find element\n" +
                 "4. Add new element\n" +
                 "5. Remove element\n" + 
-                "6. Read data from file \"dane\"\n" +
+                "6. Read data from file \"dane\" --- !WARNING! this will overwrite avl structure\n" +
                 "7. Save phone book\n" +
                 "0. Exit";
             do
@@ -302,6 +302,29 @@ namespace ASD_zad4
                         break;
                     // Read data from file
                     case 6:
+                        input = new(data);
+
+                        line = input.ReadLine()!;
+                        avl = new();
+
+                        while (line != null)
+                        {
+                            var lineSplit = line.Split(",");
+                            name = lineSplit[0];
+                            address = lineSplit[1];
+                            var number = lineSplit[2];
+                            if (number == "") number = null;
+                            var newNode = new Node(name, address, number);
+
+                            avl.Insert(newNode);
+
+                            line = input.ReadLine()!;
+                        }
+
+                        input.Close();
+
+                        Console.Clear();
+                        Console.WriteLine("Data imported - avl strucute overwriten");
 
                         break;
                     // Save phone book
