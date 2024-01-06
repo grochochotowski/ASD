@@ -147,6 +147,35 @@ namespace ASD_zad4
                 PrintInOrder(node._right);
             }
         }
+        public void PrintTree(Node node, string indent, bool last)
+        {
+            if (node != null)
+            {
+                Console.Write(indent);
+
+                if (last)
+                {
+                    Console.Write("R----");
+                    indent += "     ";
+                }
+                else
+                {
+                    Console.Write("L----");
+                    indent += "|    ";
+                }
+
+                Console.WriteLine(node._name);
+
+                PrintTree(node._left, indent, false);
+                PrintTree(node._right, indent, true);
+            }
+        }
+
+        public void PrintTree()
+        {
+            PrintTree(root, "", true);
+        }
+
     }
 
     internal class Program
@@ -181,7 +210,8 @@ namespace ASD_zad4
 
 
             /// ========================= DISPLAY RESULT DATA ========================
-            AVL.PrintInOrder(avl.root);
+            //AVL.PrintInOrder(avl.root);
+            avl.PrintTree();
 
             Console.ReadLine(); // Program written by Michał Grochowski
         }
