@@ -29,55 +29,35 @@ namespace ASD_zad4
         public string _address;
         public string _number;
 
-        public int _level;
+        public int _balance;
 
         public Node? _left;
         public Node? _right;
 
-        public Node(string name, string address, string number, int level)
+        public Node(string name, string address, string number, int balance)
         {
             _name = name;
             _address = address;
             _number = number;
 
-            _level = level;
+            _balance = balance;
+        }
+    }
+    public class AVL
+    {
+        public static void Insert(Node newNode, int parentKey)
+        {
+
         }
     }
 
     internal class Program
     {
         /// ============================= Variables =============================
-        public static List<Node> avl = [];
+        public static AVL avl = new();
 
         /// ============================= Functions =============================
-        public static void GoLeft(Node newElement, Node parent)
-        {
-            if ()
-            {
-
-            }
-        }
-        public static void GoRight()
-        {
-
-        }
         
-        public static void RotationRL()
-        {
-
-        }
-        public static void RotationLR()
-        {
-
-        }
-        public static void RotationR()
-        {
-
-        }
-        public static void RotationL()
-        {
-
-        }
 
         /// =============================== Main ================================
         static void Main(string[] args)
@@ -98,21 +78,12 @@ namespace ASD_zad4
                 var lineSplit = line.Split(",");
                 var name = lineSplit[0] + " " + lineSplit[1];
                 var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
-                var newElement = new Node(name, address, lineSplit[5], 0);
+                var newNode = new Node(key, name, address, lineSplit[5], 0);
 
-                // check if compare parent to new lower or higher
-                //      > if compare parent to new == check address
-                // go to CLR
-                // do this until end of branch
-                // put element
-                // calculate levels on branch
-                // check if levels are ok
-                //      > if levels ok do nothing
-                //      > if levels not ok do something
 
                 if (avl.Count == 0)
                 {
-                    avl.Add(newElement);
+                    avl.Insert(newElement);
                 }
                 else
                 {
@@ -144,11 +115,8 @@ namespace ASD_zad4
                     }
                 }
 
-                index++;
                 line = input.ReadLine();
             }
-
-            Console.WriteLine(string.Compare("mayo", "text"));
 
             input.Close();
             /// ============================= CALCULATING RESULST =============================
