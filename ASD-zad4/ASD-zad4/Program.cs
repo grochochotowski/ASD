@@ -4,6 +4,7 @@ using System.Net;
 using System.Xml.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Linq.Expressions;
+using System.ComponentModel.Design;
 
 namespace ASD_zad4
 {
@@ -45,7 +46,9 @@ namespace ASD_zad4
     }
     public class AVL
     {
-        public static void Insert(Node newNode, int parentKey)
+        public Node? root;
+
+        public void Insert(Node newNode, Node prevNode)
         {
 
         }
@@ -53,15 +56,9 @@ namespace ASD_zad4
 
     internal class Program
     {
-        /// ============================= Variables =============================
-        public static AVL avl = new();
-
-        /// ============================= Functions =============================
-        
-
-        /// =============================== Main ================================
         static void Main(string[] args)
         {
+            AVL avl = new();
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
             string pathIn = location + "dane.txt";
@@ -70,7 +67,7 @@ namespace ASD_zad4
             /// ========================= READING INPUT DATA ========================
             StreamReader input = new StreamReader(pathIn);
 
-            string line = input.ReadLine();
+            string line = input.ReadLine()!;
             int index = 0;
 
             while (line != null)
@@ -78,45 +75,15 @@ namespace ASD_zad4
                 var lineSplit = line.Split(",");
                 var name = lineSplit[0] + " " + lineSplit[1];
                 var address = lineSplit[2] + " " + lineSplit[3] + " " + lineSplit[4];
-                var newNode = new Node(key, name, address, lineSplit[5], 0);
+                var newNode = new Node(name, address, lineSplit[5], 0);
 
+                if (index == 0) avl.root = newNode;
+                else avl.Insert(newNode, avl.root!);
 
-                if (avl.Count == 0)
-                {
-                    avl.Insert(newElement);
-                }
-                else
-                {
-                    GoLeft(newElement, avl[index-1]);
-                    GoRight(newElement, avl[index - 1]);
-                    
-                    if (string.Compare(avl[index-1]._name, name) == -1)
-                    {
-                        // go left?
-                    }
-                    else if (string.Compare(avl[index - 1]._name, name) == 1)
-                    {
-                        //go right?
-                    }
-                    else
-                    {
-                        if (string.Compare(avl[index - 1]._address, address) == -1)
-                        {
-                            // go left?
-                        }
-                        else if (string.Compare(avl[index - 1]._address, address) == 1)
-                        {
-                            //go right?
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Same data for {name}, {address}, {lineSplit[5]}");
-                        }
-                    }
-                }
-
-                line = input.ReadLine();
+                line = input.ReadLine()!;
             }
+            //Console.WriteLine($"Same data for {name}, {address}, {lineSplit[5]}");
+            //string.Compare(avl[index - 1]._name, name
 
             input.Close();
             /// ============================= CALCULATING RESULST =============================
