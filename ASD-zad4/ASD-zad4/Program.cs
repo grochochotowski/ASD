@@ -193,13 +193,13 @@ namespace ASD_zad4
             int compareName = string.Compare(name, node._name);
             int compareAddress = string.Compare(address, node._address);
             int compare = compareName;
+
             if (compareName == 0)
             {
                 if (compareAddress == 0)
                     return node;
                 compare = compareAddress;
             }       
-
 
             if (compare > 0)
                 if (node._left == null) return null!;
@@ -221,7 +221,7 @@ namespace ASD_zad4
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
             string pathIn = location + "tempDane.txt";
-            string pathOut = location + "wynik.txt";
+            string pathOut = location + "ksiazka.txt";
 
             // Reading data & creating a tree
             StreamReader input = new(pathIn);
@@ -249,7 +249,7 @@ namespace ASD_zad4
             string choices =
                 "1. Read phone book\n" +
                 "2. Read AVL strucure\n" +
-                "3. Find element" +
+                "3. Find element\n" +
                 "4. Add new element\n" +
                 "5. Remove Element\n" + 
                 "6. Read data from file \"Data\"\n" +
