@@ -229,6 +229,7 @@ namespace ASD_zad4
                 var name = lineSplit[0];
                 var address = lineSplit[1];
                 var number = lineSplit[2];
+                if (number == "") number = null;
                 var newNode = new Node(name, address, number);
 
                 avl.Insert(newNode);
