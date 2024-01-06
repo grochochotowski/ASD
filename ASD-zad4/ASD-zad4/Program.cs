@@ -60,18 +60,30 @@ namespace ASD_zad4
                 return newNode;
 
             int compare = string.Compare(newNode._name, node._name);
+            if (compare == 0)
+                compare = string.Compare(newNode._address, node._address);
 
             if (compare < 0)
-                node._left = InsertNode(node._left!, newNode);
+                node._left = InsertNode(newNode, node._left!);
             else if (compare > 0)
-                node._right = InsertNode(node._right!, newNode);
+                node._right = InsertNode(newNode, node._right!);
             else
             {
                 Console.WriteLine($"Same data for {newNode._name}, {newNode._address}, {newNode._number}");
-                return node;
+                throw new InvalidOperationException("Duplicate node not allowed");
             }
 
+            node._balance = Height(node._left) - Height(node._right);
+
             return node;
+        }
+
+        private static int Height(Node? node)
+        {
+            if (node == null)
+                return -1;
+
+            return 1 + Math.Max(Height(node._left), Height(node._right));
         }
     }
 
@@ -89,7 +101,6 @@ namespace ASD_zad4
             StreamReader input = new StreamReader(pathIn);
 
             string line = input.ReadLine()!;
-            int index = 0;
 
             while (line != null)
             {
