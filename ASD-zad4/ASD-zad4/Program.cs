@@ -70,7 +70,37 @@ namespace ASD_zad4
                 throw new InvalidOperationException("Duplicate node not allowed");
             }
 
-            node._balance = Height(node._left) - Height(node._right);
+            node = Rebalance(node);
+
+            return node;
+        }
+
+        private static Node Rebalance(Node node)
+        {
+            int balance = Height(node._left) - Height(node._right);
+
+            if (balance > 1)
+            {
+                if (Height(node._left!._left) >= Height(node._left._right))
+                {
+                    node = RotateRight(node);
+                }
+                else
+                {
+                    node = RotateLeftRight(node);
+                }
+            }
+            else if (balance < -1)
+            {
+                if (Height(node._right!._right) >= Height(node._right._left))
+                {
+                    node = RotateLeft(node);
+                }
+                else
+                {
+                    node = RotateRightLeft(node);
+                }
+            }
 
             return node;
         }
@@ -83,7 +113,32 @@ namespace ASD_zad4
             return 1 + Math.Max(Height(node._left), Height(node._right));
         }
 
-        public void PrintInOrder(Node? node)
+        private static Node RotateRight(Node node)
+        {
+            Node pivot = node._left!;
+            node._left = pivot._right;
+            pivot._right = node;
+            return pivot;
+        }
+        private static Node RotateLeft(Node node)
+        {
+            Node pivot = node._right!;
+            node._right = pivot._left;
+            pivot._left = node;
+            return pivot;
+        }
+        private static Node RotateRightLeft(Node node)
+        {
+            node._right = RotateRight(node._right!);
+            return RotateLeft(node);
+        }
+        private static Node RotateLeftRight(Node node)
+        {
+            node._left = RotateLeft(node._left!);
+            return RotateRight(node);
+        }
+
+        public static void PrintInOrder(Node? node)
         {
             if (node != null)
             {
@@ -126,7 +181,7 @@ namespace ASD_zad4
 
 
             /// ========================= DISPLAY RESULT DATA ========================
-            avl.PrintInOrder(avl.root);
+            AVL.PrintInOrder(avl.root);
 
             Console.ReadLine(); // Program written by Michał Grochowski
         }
