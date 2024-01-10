@@ -209,30 +209,30 @@ namespace ASD_zad4
         // Delete element
         public void Delete(string name, string address)
         {
-            root = DeleteNode(root, name, address);
+            root = DeleteNode(root!, name, address);
         }
 
         private static Node DeleteNode(Node node, string name, string address)
         {
             if (node == null)
-                return node;
+                return node!;
 
             int compareName = string.Compare(name, node._name);
             int compareAddress = string.Compare(address, node._address);
 
             if (compareName < 0 || (compareName == 0 && compareAddress < 0))
-                node._left = DeleteNode(node._left, name, address);
+                node._left = DeleteNode(node._left!, name, address);
             else if (compareName > 0 || (compareName == 0 && compareAddress > 0))
-                node._right = DeleteNode(node._right, name, address);
+                node._right = DeleteNode(node._right!, name, address);
             else
             {
                 if (node._left == null || node._right == null)
                 {
-                    Node temp = node._left ?? node._right;
+                    Node temp = node._left! ?? node._right!;
                     if (temp == null)
                     {
                         temp = node;
-                        node = null;
+                        node = null!;
                     }
                     else
                     {
@@ -250,7 +250,7 @@ namespace ASD_zad4
             }
 
             if (node == null)
-                return node;
+                return node!;
 
             node = Rebalance(node);
 
