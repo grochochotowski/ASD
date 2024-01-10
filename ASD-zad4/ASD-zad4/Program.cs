@@ -205,7 +205,72 @@ namespace ASD_zad4
                 return FindElement(name, address, node._right!);
         }
 
+
+        // Delete element
+        public void Delete(string name, string address)
+        {
+            root = DeleteNode(root, name, address);
+        }
+
+        private static Node DeleteNode(Node node, string name, string address)
+        {
+            if (node == null)
+                return node;
+
+            int compareName = string.Compare(name, node._name);
+            int compareAddress = string.Compare(address, node._address);
+
+            if (compareName < 0 || (compareName == 0 && compareAddress < 0))
+                node._left = DeleteNode(node._left, name, address);
+            else if (compareName > 0 || (compareName == 0 && compareAddress > 0))
+                node._right = DeleteNode(node._right, name, address);
+            else
+            {
+                if (node._left == null || node._right == null)
+                {
+                    Node temp = node._left ?? node._right;
+                    if (temp == null)
+                    {
+                        temp = node;
+                        node = null;
+                    }
+                    else
+                    {
+                        node = temp; // One child case
+                    }
+                }
+                else
+                {
+                    Node temp = FindMin(node._right);
+                    node._name = temp._name;
+                    node._address = temp._address;
+                    node._number = temp._number;
+                    node._right = DeleteNode(node._right, temp._name, temp._address);
+                }
+            }
+
+            if (node == null)
+                return node;
+
+            node = Rebalance(node);
+
+            return node;
+        }
+
+        private static Node FindMin(Node node)
+        {
+            Node current = node;
+            while (current._left != null)
+            {
+                current = current._left;
+            }
+            return current;
+        }
+
+
     }
+
+
 
     internal class Program
     {
@@ -298,7 +363,14 @@ namespace ASD_zad4
                         break;
                     // Remove element
                     case 5:
+                        Console.Clear();
 
+                        Console.WriteLine("\nEnter name:");
+                        name = Console.ReadLine();
+                        Console.WriteLine("\nEnter address:");
+                        address = Console.ReadLine();
+
+                        avl.Delete(name!, address!);
                         break;
                     // Read data from file
                     case 6:
