@@ -9,7 +9,7 @@ Andrew Singh,Tarnow al. Debowa 15,878-565-656
 Aria Fujimoto,Kalisz ul. Zielona 9,201-898-989
 Ariana Costa,Kedzierzyn-Kozle ul. Parkowa 5,523-010-101
 Aubrey Wang,Piotrkow Trybunalski ul. Kwiatowa 18,423-010-101
-Aurora Garcia,Zory ul. Lesna 9,623-010-101
+Aurora García,Zory ul. Lesna 9,623-010-101
 Ava Gupta,Katowice ul. Topolowa 3/5,321-654-987
 Avery Das,Grudziadz ul. Parkowa 22/3,423-010-101
 Benjamin Alves,Torun pl. Powstancow 9,876-109-432
@@ -30,7 +30,7 @@ Ellie Park,Konin ul. Slonecznikowa 14,201-898-989
 Emily Johnson,Warszawa ul. Kwiatowa 5/3,123-456-789
 Ethan Sullivan,Poznan al. Spacerowa 33/12,678-901-234
 Eva Gomez,Legionowo ul. Brzozowa 7,067-454-545
-Evelyn Gonzalez,Gliwice ul. Zielona 22,909-212-121
+Evelyn González,Gliwice ul. Zielona 22,909-212-121
 Gabriel Petrov,Jastrzebie-Zdroj al. Spacerowa 20,756-343-434
 Gabriella Santiago,Zamosc ul. Lipowa 8,745-232-323
 Grace MacKenzie,Olsztyn ul. Podgorska 5/8,707-232-323
@@ -61,13 +61,13 @@ Lillian Santos,Ostroleka pl. Zielony 8/5,056-343-434
 Lily Kaur,Plock ul. Spacerowa 16,323-010-101
 Lincoln Kim,Police ul. Lipowa 9/2,501-898-989
 Logan Ortiz,Walbrzych pl. Ogrodowy 29,656-343-434
-Lucas Anderson,Bialystok al. Wiosenna 11,210-543-876
+Lucas Anderson,Bialystok al. Wiosenna 11,
 Luke Jensen,Inowroclaw al. Wiosenna 26/8,534-121-212
 Luna Vargas,Slupsk ul. Brzozowa 17,645-232-323
 Mackenzie Chan,Swarzedz ul. Lesna 18,845-232-323
 Madeline Martinez,Skierniewice ul. Parkowa 3,067-454-545
 Madison Duval,Opole ul. Brzozowa 11/2,101-898-989
-Marcus Rodriguez,Krakow al. Sloneczna 10,234-567-890
+Marcus Rodriguez,Krakow al. Sloneczna 10,
 Matthew Lévesque,Legnica al. Sloneczna 18,312-909-090
 Maya Das,Mielec ul. Sloneczna 11/7,401-898-989
 Mia Nguyen,Wroclaw ul. Polna 8,567-890-123
@@ -77,7 +77,7 @@ Natalie Barros,Lubin ul. Polna 15,645-232-323
 Noah García,Bydgoszcz pl. Rozany 7,890-123-456
 Nolan Dupont,Swidnica al. Sosnowa 19,856-343-434
 Oliver Papadopoulos,Myslowice al. Lipowa 9/4,190-787-878
-Olivia Kim,Lublin ul. Slonecznikowa 25/9,901-234-567
+Olivia Kim,Lublin ul. Slonecznikowa 25/9,
 Paisley Dubois,Zyrardow ul. Slonecznikowa 25/5,845-232-323
 Paisley Saito,Zagan pl. Brzozowy 32,490-787-878
 Penelope Silva,Chorzow ul. Lesna 10/5,989-676-767

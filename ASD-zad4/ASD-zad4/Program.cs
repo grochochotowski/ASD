@@ -32,7 +32,6 @@ namespace ASD_zad4
         public string _address;
         public string? _number;
 
-        public int _balance;
         public Node? _left;
         public Node? _right;
 
