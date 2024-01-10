@@ -280,7 +280,7 @@ namespace ASD_zad4
             // Creating paths for input and output files
             string location = @"C:\nonSystem\IT\Code\ASD\ASD-zad4\ASD-zad4\";
             string data = location + "tempDane.txt";
-            string book = location + "ksiazka.txt";
+            string book = location + "book.txt";
 
             // Reading data & creating a tree
             StreamReader input = new(book);
