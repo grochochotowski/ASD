@@ -359,6 +359,23 @@ namespace ASD_zad4
                         break;
                     // Add new element
                     case 4:
+                        Console.Clear();
+
+                        Console.WriteLine("\nEnter name:");
+                        name = Console.ReadLine();
+                        Console.WriteLine("\nEnter address:");
+                        address = Console.ReadLine();
+                        Console.WriteLine("\nEnter number:");
+                        var number = Console.ReadLine();
+
+                        if (name == "" || address == "")
+                        {
+                            Console.WriteLine("Name and address cannot be null");
+                            break;
+                        }
+
+                        Node newNode = new(name!, address!, number);
+                        avl.Insert(newNode);
 
                         break;
                     // Remove element
@@ -384,9 +401,9 @@ namespace ASD_zad4
                             var lineSplit = line.Split(",");
                             name = lineSplit[0];
                             address = lineSplit[1];
-                            var number = lineSplit[2];
+                            number = lineSplit[2];
                             if (number == "") number = null;
-                            var newNode = new Node(name, address, number);
+                            newNode = new Node(name, address, number);
 
                             avl.Insert(newNode);
 
