@@ -268,6 +268,17 @@ namespace ASD_zad4
         }
 
 
+        // Save book
+        public void SaveTreeToFile(Node node, StreamWriter output)
+        {
+            if (node != null)
+            {
+                SaveTreeToFile(node._left!, output);
+                output.WriteLine($"{node._name},{node._address},{node._number ?? ""}");
+                SaveTreeToFile(node._right!, output);
+            }
+        }
+
     }
 
 
@@ -419,6 +430,13 @@ namespace ASD_zad4
                         break;
                     // Save phone book
                     case 7:
+                        StreamWriter output = new(book);
+                        avl.SaveTreeToFile(avl.root!, output);
+                        output.Close();
+
+                        Console.Clear();
+                        Console.WriteLine("Phone book saved to 'book.txt'");
+                        Console.ReadLine();
 
                         break;
                     // Error
