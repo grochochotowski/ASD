@@ -323,7 +323,7 @@ namespace ASD_zad4
                 "3. Find element\n" +
                 "4. Add new element\n" +
                 "5. Remove element\n" + 
-                "6. Read data from file \"dane\" --- !WARNING! this will overwrite avl structure\n" +
+                "6. Read data from file \"data.txt\" --- !WARNING! this will overwrite avl structure\n" +
                 "7. Save phone book\n" +
                 "0. Exit";
             do
