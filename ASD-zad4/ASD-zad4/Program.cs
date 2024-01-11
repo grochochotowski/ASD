@@ -87,7 +87,7 @@ namespace ASD_zad4
             if (node != null)
             {
                 PrintInOrder(node._left);
-                Console.WriteLine($"{node._name}, {node._address}, {node._number}");
+                Console.WriteLine($"{node._name}, {node._address}, {node._number ?? "NO NUMBER"}");
                 PrintInOrder(node._right);
             }
         }
@@ -360,10 +360,10 @@ namespace ASD_zad4
                         var result = AVL.FindElement(name!, address!, avl.root!);
                         if (result != null)
                         {
-                            string resultNumber = result._number ?? "NO ABONAMENT";
+                            string resultNumber = result._number ?? "NO NUMBER";
                             Console.WriteLine($"\nRESULT\n{name}, {address}, {resultNumber}");
                         }
-                        else Console.WriteLine($"\nRESULT\nPerson with name: \"{name}\" and address: \"{address}\" does not exist in phone book");
+                        else Console.WriteLine($"\nRESULT\nNO ABONAMENT");
 
                         Console.ReadLine();
                         break;
