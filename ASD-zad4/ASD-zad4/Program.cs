@@ -451,3 +451,14 @@ namespace ASD_zad4
         }
     }
 }
+
+/// Insert(Wstawianie): O(log n)
+/// FindElement(Wyszukiwanie): O(log n)
+/// Delete(Usuwanie): O(log n)
+/// FindMin(Znajdowanie minimalnej wartości): O(log n)
+/// Rebalance(Balansowanie): O(log n)
+/// Height(Obliczanie wysokości węzła): O(log n)
+/// Rotacje(RotateRight, RotateLeft, RotateRightLeft, RotateLeftRight): O(1)
+/// PrintInOrder(Wyświetlanie drzewa w porządku rosnącym): O(n)
+/// PrintTree(Wyświetlanie struktury drzewa): O(n)
+/// SaveTreeToFile(Zapisywanie drzewa do pliku): O(n)
