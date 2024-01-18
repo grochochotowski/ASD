@@ -5,6 +5,8 @@ using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
 
 namespace ASD_zad5
+
+    //test 
 {
     /// Asd- landia słynie z bogatych złóż złota, dlatego przez lata kwitnie sprzedaż tego kruszcu do
     /// sąsiedniego królestwa, GRAF-landii.Niestety powiększająca się ostatnio dziura budżetowa zmusiła
