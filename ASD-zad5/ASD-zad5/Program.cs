@@ -126,7 +126,12 @@ namespace ASD_zad5
 
 
             /// ============================= SHOWING RESULTS =============================
-
+            Console.WriteLine("========== INPUT DATA ==========");
+            Console.WriteLine($"{num_of_metals} metals:");
+            for (int i = 0; i < num_of_metals; i++) Console.WriteLine($"\t{metals_prices[i]}");
+            Console.WriteLine($"\n{num_of_transformations} transformations:");
+            for (int i = 0; i < num_of_transformations; i++) Console.WriteLine($"\t{transformations[i].Item1} + {transformations[i].Item2} -> {transformations[i].Item3}");
+            Console.WriteLine("================================");
 
             Console.ReadLine(); // Program written by Michał Grochowsk
         }
