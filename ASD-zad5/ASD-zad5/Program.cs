@@ -70,8 +70,11 @@ namespace ASD_zad5
     internal class Program
     {
         /// ============================= Variables =============================
-
-
+        public static int num_of_metals;
+        public static int num_of_transformations;
+        public static List<int> metals_prices = [];
+        public static List<(int, int, int)> transformations = [];
+        
 
         /// ============================= Functions =============================
 
@@ -89,8 +92,31 @@ namespace ASD_zad5
             StreamReader reader = new StreamReader(pathIn);
 
             var line = reader.ReadLine();
-            int n = int.Parse(line!); // number of metals
-            Console.WriteLine(n.GetType());
+            num_of_metals = int.Parse(line!); // number of metals
+
+            for (int i = 0; i < num_of_metals; i++)
+            {
+                line = reader.ReadLine();
+                var pk = int.Parse(line!); // price of metal k
+
+                metals_prices.Add(pk);
+            }
+
+            line = reader.ReadLine();
+            num_of_transformations = int.Parse(line!); // number of transformations
+            
+
+            for (int i = 0; i < num_of_transformations; i++)
+            {
+                line = reader.ReadLine();
+                string[] lineElements = line!.Split(' ');
+
+                transformations.Add((           //
+                    int.Parse(lineElements[0]), //
+                    int.Parse(lineElements[1]), // transformation
+                    int.Parse(lineElements[2])  //
+                ));                             //
+            }
 
             reader.Close();
 
