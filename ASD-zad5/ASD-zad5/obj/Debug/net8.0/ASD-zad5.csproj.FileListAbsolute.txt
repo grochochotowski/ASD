@@ -1,0 +1,15 @@
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\bin\Debug\net8.0\ASD-zad5.exe
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\bin\Debug\net8.0\ASD-zad5.deps.json
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\bin\Debug\net8.0\ASD-zad5.runtimeconfig.json
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\bin\Debug\net8.0\ASD-zad5.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\bin\Debug\net8.0\ASD-zad5.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.AssemblyInfoInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.AssemblyInfo.cs
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.csproj.CoreCompileInputs.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.sourcelink.json
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\refint\ASD-zad5.dll
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.pdb
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ASD-zad5.genruntimeconfig.cache
+C:\nonSystem\IT\Code\ASD\ASD-zad5\ASD-zad5\obj\Debug\net8.0\ref\ASD-zad5.dll

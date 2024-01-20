@@ -86,7 +86,13 @@ namespace ASD_zad5
             string pathOut = location + "XX_out_ps7_Grochowski.txt";
 
             /// ========================= READING INPUT DATA ========================
+            StreamReader reader = new StreamReader(pathIn);
 
+            var line = reader.ReadLine();
+            int n = int.Parse(line!); // number of metals
+            Console.WriteLine(n.GetType());
+
+            reader.Close();
 
 
             /// ============================= CALCULATING RESULST =============================
