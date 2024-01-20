@@ -102,9 +102,9 @@ namespace ASD_zad5
                 metals_prices.Add(pk);
             }
 
+
             line = reader.ReadLine();
             num_of_transformations = int.Parse(line!); // number of transformations
-            
 
             for (int i = 0; i < num_of_transformations; i++)
             {
@@ -118,9 +118,8 @@ namespace ASD_zad5
                 ));                             //
             }
 
+
             reader.Close();
-
-
             /// ============================= CALCULATING RESULST =============================
 
 
