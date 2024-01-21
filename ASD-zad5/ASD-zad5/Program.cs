@@ -72,14 +72,14 @@ namespace ASD_zad5
         /// ============================= Variables =============================
         public static int num_of_metals;
         public static int num_of_transformations;
-        public static List<int> metals_prices = [];
+        public static int[]? metals_prices;
         public static List<(int, int, int)> transformations = [];
 
         public static int totalPrice;
         
 
         /// ============================= Functions =============================
-        public static int Route(int num_of_metals, List<int> metals_prices, List<(int, int, int)> transformations)
+        public static int Route(int num_of_metals, int[] metals_prices, List<(int, int, int)> transformations)
         {
             int sum;
             int[] cheapest = new int[num_of_metals];
@@ -145,12 +145,14 @@ namespace ASD_zad5
             var line = reader.ReadLine();
             num_of_metals = int.Parse(line!); // number of metals
 
+            metals_prices = new int[num_of_metals];
+
             for (int i = 0; i < num_of_metals; i++)
             {
                 line = reader.ReadLine();
                 var pk = int.Parse(line!); // price of metal k
 
-                metals_prices.Add(pk);
+                metals_prices[i] = pk;
             }
 
 
