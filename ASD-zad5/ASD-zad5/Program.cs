@@ -79,7 +79,18 @@ namespace ASD_zad5
         
 
         /// ============================= Functions =============================
+        public static int Route(int num_of_metals, List<int> metals_prices, List<(int, int, int)> transformations)
+        {
+            int sum;
+            int[] cheapest = new int[num_of_metals];
+            Array.Fill(cheapest, int.MaxValue);
+            cheapest[0] = 0;
+            int final = 0;
 
+
+
+            return sum;
+        }
 
 
         /// =============================== Main ================================
@@ -123,7 +134,7 @@ namespace ASD_zad5
 
             reader.Close();
             /// ============================= CALCULATING RESULST =============================
-
+            price = Route(num_of_metals, metals_prices, transformations);
 
 
             /// ============================= SHOWING RESULTS =============================
