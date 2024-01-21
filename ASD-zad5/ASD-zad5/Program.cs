@@ -112,7 +112,7 @@ namespace ASD_zad5
             sum = cheapest[final] + (int)(0.5 * metals_prices[final]);
 
             Array.Fill(cheapest, int.MaxValue);
-            cheapest[0] = 0;
+            cheapest[final] = 0;
             foreach (var transformation in transformations)
             {
                 int from_metal = transformation.Item1 - 1;
