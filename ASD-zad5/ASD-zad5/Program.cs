@@ -74,6 +74,8 @@ namespace ASD_zad5
         public static int num_of_transformations;
         public static List<int> metals_prices = [];
         public static List<(int, int, int)> transformations = [];
+
+        public static int price;
         
 
         /// ============================= Functions =============================
@@ -130,6 +132,9 @@ namespace ASD_zad5
             for (int i = 0; i < num_of_metals; i++) Console.WriteLine($"\t{metals_prices[i]}");
             Console.WriteLine($"\n{num_of_transformations} transformations:");
             for (int i = 0; i < num_of_transformations; i++) Console.WriteLine($"\t{transformations[i].Item1} + {transformations[i].Item2} -> {transformations[i].Item3}");
+            Console.WriteLine("================================");
+            Console.WriteLine("============ OUTPUT ============");
+            Console.WriteLine($"Price: {price}");
             Console.WriteLine("================================");
 
             Console.ReadLine(); // Program written by Michał Grochowsk
