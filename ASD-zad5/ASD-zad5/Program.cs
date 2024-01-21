@@ -187,6 +187,11 @@ namespace ASD_zad5
             Console.WriteLine($"Price: {totalPrice}");
             Console.WriteLine("================================");
 
+            /// ====================== SAVING RESULTS TO OUTPUT FILE ======================
+            StreamWriter output = new StreamWriter(pathOut);
+            output.WriteLine(totalPrice);
+            output.Close();
+
             Console.ReadLine(); // Program written by Michał Grochowsk
         }
     }
