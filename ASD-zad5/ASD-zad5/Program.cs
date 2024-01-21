@@ -87,7 +87,45 @@ namespace ASD_zad5
             cheapest[0] = 0;
             int final = 0;
 
+            foreach (var transformation in transformations)
+            {
+                int from_metal = transformation.Item1 - 1;
+                int to_metal = transformation.Item2 - 1;
+                int price = transformation.Item3;
 
+                if (cheapest[from_metal] != int.MaxValue && cheapest[to_metal] + price < cheapest[to_metal])
+                {
+                    cheapest[to_metal] = cheapest[from_metal] + price;
+                }
+            }
+
+            int min = int.MaxValue;
+            for(int i = 0; i < num_of_metals; i++)
+            {
+                if (metals_prices[i] / 2 + cheapest[i] < min)
+                {
+                    min = (metals_prices[i] / 2 + cheapest[i]);
+                    final = i;
+                }
+            }
+
+            sum = cheapest[final] + (int)(0.5 * metals_prices[final]);
+
+            Array.Fill(cheapest, int.MaxValue);
+            cheapest[0] = 0;
+            foreach (var transformation in transformations)
+            {
+                int from_metal = transformation.Item1 - 1;
+                int to_metal = transformation.Item2 - 1;
+                int price = transformation.Item3;
+
+                if (cheapest[from_metal] != int.MaxValue && cheapest[to_metal] + price < cheapest[to_metal])
+                {
+                    cheapest[to_metal] = cheapest[from_metal] + price;
+                }
+            }
+
+            sum += cheapest[0];
 
             return sum;
         }
