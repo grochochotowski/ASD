@@ -75,7 +75,7 @@ namespace ASD_zad5
         public static List<int> metals_prices = [];
         public static List<(int, int, int)> transformations = [];
 
-        public static int price;
+        public static int totalPrice;
         
 
         /// ============================= Functions =============================
@@ -172,8 +172,7 @@ namespace ASD_zad5
 
             reader.Close();
             /// ============================= CALCULATING RESULST =============================
-            price = Route(num_of_metals, metals_prices, transformations);
-
+            totalPrice = Route(num_of_metals, metals_prices, transformations);
 
             /// ============================= SHOWING RESULTS =============================
             Console.WriteLine("========== INPUT DATA ==========");
@@ -183,7 +182,7 @@ namespace ASD_zad5
             for (int i = 0; i < num_of_transformations; i++) Console.WriteLine($"\t{transformations[i].Item1} + {transformations[i].Item2} -> {transformations[i].Item3}");
             Console.WriteLine("================================");
             Console.WriteLine("============ OUTPUT ============");
-            Console.WriteLine($"Price: {price}");
+            Console.WriteLine($"Price: {totalPrice}");
             Console.WriteLine("================================");
 
             Console.ReadLine(); // Program written by Michał Grochowsk
