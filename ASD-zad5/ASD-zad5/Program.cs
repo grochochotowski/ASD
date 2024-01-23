@@ -117,7 +117,7 @@ namespace ASD_zad5
             int min = int.MaxValue;
             for (int i = 1; i < num_of_metals; i++)
             {
-                int cost = cheapest[0, i] + metals_prices![i] / 2 + cheapest[i, 0];
+                int cost = cheapest[0, i] + metals_prices[i] / 2 + cheapest[i, 0];
                 min = Math.Min(min, cost);
             }
 
