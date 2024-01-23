@@ -79,55 +79,6 @@ namespace ASD_zad5
 
 
         /// ============================= Functions =============================
-        /*public static int Route(int num_of_metals, int[] metals_prices, List<(int, int, int)> transformations)
-        {
-            int[,] cheapest = new int[num_of_metals, num_of_metals];
-
-            for (int i = 0; i < num_of_metals; i++)
-            {
-                for (int j = 0; j < num_of_metals; j++)
-                {
-                    cheapest[i, j] = int.MaxValue;
-                }
-            }
-
-            foreach (var transformation in transformations)
-            {
-                int fromMetal = transformation.Item1 - 1;
-                int toMetal = transformation.Item2 - 1;
-                int cost = transformation.Item3;
-
-                cheapest[fromMetal, toMetal] = cost;
-            }
-
-            for (int k = 0; k < num_of_metals; k++)
-            {
-                for (int i = 0; i < num_of_metals; i++)
-                {
-                    for (int j = 0; j < num_of_metals; j++)
-                    {
-                        if (cheapest[i, k] != int.MaxValue && cheapest[k, j] != int.MaxValue)
-                        {
-                            cheapest[i, j] = Math.Min(cheapest[i, j], cheapest[i, k] + cheapest[k, j]);
-                        }
-                    }
-                }
-            }
-
-            int min = int.MaxValue;
-            for (int i = 1; i < num_of_metals; i++)
-            {
-                int cost = cheapest[0, i] + metals_prices[i] / 2 + cheapest[i, 0];
-                min = Math.Min(min, cost);
-            }
-
-            if (min > metals_prices[0] / 2)
-            {
-                return metals_prices[0] / 2;
-            }
-
-            return min;
-        }*/
         public static int Route(int num_of_metals, int[] metals_prices, List<(int, int, int)> transformations)
         {
             int[,] cheapest = new int[num_of_metals, num_of_metals];
@@ -171,14 +122,10 @@ namespace ASD_zad5
             }
 
             if (min > metals_prices[0] / 2)
-            {
                 return metals_prices[0] / 2;
-            }
 
             return min;
         }
-
-
 
         /// =============================== Main ================================
         static void Main(string[] args)
