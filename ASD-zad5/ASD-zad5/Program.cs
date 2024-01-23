@@ -76,58 +76,57 @@ namespace ASD_zad5
         public static List<(int, int, int)> transformations = [];
 
         public static int totalPrice;
-        
+
 
         /// ============================= Functions =============================
         public static int Route(int num_of_metals, int[] metals_prices, List<(int, int, int)> transformations)
         {
-            int sum;
-            int[] cheapest = new int[num_of_metals];
-            Array.Fill(cheapest, int.MaxValue);
-            cheapest[0] = 0;
-            int final = 0;
+            int[,] cheapest = new int[num_of_metals, num_of_metals];
+
+            for (int i = 0; i < num_of_metals; i++)
+            {
+                for (int j = 0; j < num_of_metals; j++)
+                {
+                    cheapest[i, j] = int.MaxValue;
+                }
+            }
 
             foreach (var transformation in transformations)
             {
-                int from_metal = transformation.Item1 - 1;
-                int to_metal = transformation.Item2 - 1;
-                int price = transformation.Item3;
+                int fromMetal = transformation.Item1 - 1;
+                int toMetal = transformation.Item2 - 1;
+                int cost = transformation.Item3;
 
-                if (cheapest[from_metal] != int.MaxValue && cheapest[to_metal] + price < cheapest[to_metal])
+                cheapest[fromMetal, toMetal] = cost;
+            }
+
+            for (int k = 0; k < num_of_metals; k++)
+            {
+                for (int i = 0; i < num_of_metals; i++)
                 {
-                    cheapest[to_metal] = cheapest[from_metal] + price;
+                    for (int j = 0; j < num_of_metals; j++)
+                    {
+                        if (cheapest[i, k] != int.MaxValue && cheapest[k, j] != int.MaxValue)
+                        {
+                            cheapest[i, j] = Math.Min(cheapest[i, j], cheapest[i, k] + cheapest[k, j]);
+                        }
+                    }
                 }
             }
 
             int min = int.MaxValue;
-            for(int i = 0; i < num_of_metals; i++)
+            for (int i = 1; i < num_of_metals; i++)
             {
-                if (metals_prices[i] / 2 + cheapest[i] < min)
-                {
-                    min = (metals_prices[i] / 2 + cheapest[i]);
-                    final = i;
-                }
+                int cost = cheapest[0, i] + metals_prices![i] / 2 + cheapest[i, 0];
+                min = Math.Min(min, cost);
             }
 
-            sum = cheapest[final] + (int)(0.5 * metals_prices[final]);
-
-            Array.Fill(cheapest, int.MaxValue);
-            cheapest[final] = 0;
-            foreach (var transformation in transformations)
+            if (min > metals_prices[0] / 2)
             {
-                int from_metal = transformation.Item1 - 1;
-                int to_metal = transformation.Item2 - 1;
-                int price = transformation.Item3;
-
-                if (cheapest[from_metal] != int.MaxValue && cheapest[to_metal] + price < cheapest[to_metal])
-                {
-                    cheapest[to_metal] = cheapest[from_metal] + price;
-                }
+                return metals_prices[0] / 2;
             }
 
-            sum += cheapest[0];
-
-            return sum;
+            return min;
         }
 
 
