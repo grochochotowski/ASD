@@ -79,9 +79,9 @@ namespace ASD_zad5
             Distance = distance;
         }
 
-        public int CompareTo(Node other)
+        public int CompareTo(Node? other)
         {
-            return Distance.CompareTo(other.Distance);
+            return Distance.CompareTo(other!.Distance);
         }
     }
 
