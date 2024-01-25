@@ -190,8 +190,8 @@ namespace ASD_zad5
                 min = Math.Min(min, distance_forward[i] + distance_return[0] + tranfer / 2);
             }
 
-            //if (min > metals_prices[0] / 2)
-            //    return metals_prices[0] / 2;
+            if (min > metals_prices[0] / 2)
+                return metals_prices[0] / 2;
             return min;
         }
         public static int[] Dijkstra(int[,] graph, int num_of_vertices, int source)
