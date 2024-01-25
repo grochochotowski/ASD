@@ -198,7 +198,7 @@ namespace ASD_zad5
         {
             int[] distance = new int[num_of_vertices];
             bool[] visited = new bool[num_of_vertices];
-                
+
             for (int v = 0; v < num_of_vertices; v++)
             {
                 distance[v] = int.MaxValue;
