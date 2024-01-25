@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Numerics;
 using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
+using System.Xml.Linq;
 
 namespace ASD_zad5
 {
@@ -66,7 +67,86 @@ namespace ASD_zad5
     /// 4 1 50
     /// Wyjście:
     /// 60
+    
+    public class Node : IComparable<Node>
+    {
+        public int Vertex { get; }
+        public int Distance { get; }
 
+        public Node(int vertex, int distance)
+        {
+            Vertex = vertex;
+            Distance = distance;
+        }
+
+        public int CompareTo(Node other)
+        {
+            return Distance.CompareTo(other.Distance);
+        }
+    }
+
+    public class PriorityQueue<T> where T : IComparable<T>
+    {
+        private List<T> heap = [];
+
+        public int Count => heap.Count;
+
+        public void Enqueue(T item)
+        {
+            heap.Add(item);
+            int i = heap.Count - 1;
+
+            while (i > 0)
+            {
+                int parent = (i - 1) / 2;
+
+                if (heap[i].CompareTo(heap[parent]) >= 0)
+                    break;
+
+                Swap(i, parent);
+                i = parent;
+            }
+        }
+
+        public T Dequeue()
+        {
+            if (heap.Count == 0)
+                throw new InvalidOperationException("Queue is empty.");
+
+            T root = heap[0];
+            heap[0] = heap[heap.Count - 1];
+            heap.RemoveAt(heap.Count - 1);
+
+            int i = 0;
+            while (true)
+            {
+                int leftChild = 2 * i + 1;
+                int rightChild = 2 * i + 2;
+                int smallest = i;
+
+                if (leftChild < heap.Count && heap[leftChild].CompareTo(heap[smallest]) < 0)
+                    smallest = leftChild;
+
+                if (rightChild < heap.Count && heap[rightChild].CompareTo(heap[smallest]) < 0)
+                    smallest = rightChild;
+
+                if (smallest == i)
+                    break;
+
+                Swap(i, smallest);
+                i = smallest;
+            }
+
+            return root;
+        }
+
+        private void Swap(int i, int j)
+        {
+            T temp = heap[i];
+            heap[i] = heap[j];
+            heap[j] = temp;
+        }
+    }
     internal class Program
     {
         /// ============================= Variables =============================
@@ -100,32 +180,107 @@ namespace ASD_zad5
                 cheapest[fromMetal, toMetal] = cost;
             }
 
-            for (int k = 0; k < num_of_metals; k++)
+            int min = int.MaxValue;
+            int[] distance_forward = Dijkstra(cheapest, num_of_metals, 0);
+
+            for (int i = 1; i < distance_forward.Length; i++)
             {
-                for (int i = 0; i < num_of_metals; i++)
+                int[] distance_return = Dijkstra(cheapest, num_of_metals, i);
+                int tranfer = metals_prices[i];
+                min = Math.Min(min, distance_forward[i] + distance_return[0] + tranfer / 2);
+            }
+
+            //if (min > metals_prices[0] / 2)
+            //    return metals_prices[0] / 2;
+            return min;
+        }
+        public static int[] Dijkstra(int[,] graph, int num_of_vertices, int source)
+        {
+            int[] distance = new int[num_of_vertices];
+            bool[] visited = new bool[num_of_vertices];
+
+            for (int v = 0; v < num_of_vertices; v++)
+            {
+                distance[v] = int.MaxValue;
+                visited[v] = false;
+            }
+
+            distance[source] = 0;
+
+            PriorityQueue<Node> priorityQueue = new PriorityQueue<Node>();
+            priorityQueue.Enqueue(new Node(source, 0));
+
+            while (priorityQueue.Count > 0)
+            {
+                Node uNode = priorityQueue.Dequeue();
+                int u = uNode.Vertex;
+
+                if (visited[u])
+                    continue;
+
+                visited[u] = true;
+
+                for (int v = 0; v < num_of_vertices; v++)
                 {
-                    for (int j = 0; j < num_of_metals; j++)
+                    if (!visited[v] && graph[u, v] != int.MaxValue &&
+                        distance[v] > distance[u] + graph[u, v])
                     {
-                        if (cheapest[i, k] != int.MaxValue && cheapest[k, j] != int.MaxValue)
-                        {
-                            cheapest[i, j] = Math.Min(cheapest[i, j], cheapest[i, k] + cheapest[k, j]);
-                        }
+                        distance[v] = distance[u] + graph[u, v];
+                        priorityQueue.Enqueue(new Node(v, distance[v]));
                     }
                 }
             }
 
-            int min = int.MaxValue;
-            for (int i = 1; i < num_of_metals; i++)
+            return distance;
+        }
+        /*public static int[] Dijkstra(int[,] graph, int num_of_vertices, int source)
+        {
+            int[] distance = new int[num_of_vertices];
+            bool[] visited = new bool[num_of_vertices];
+
+            for (int v = 0; v < num_of_vertices; v++)
             {
-                int cost = cheapest[0, i] + metals_prices[i] / 2 + cheapest[i, 0];
-                min = Math.Min(min, cost);
+                distance[v] = int.MaxValue;
+                visited[v] = false;
             }
 
-            if (min > metals_prices[0] / 2)
-                return metals_prices[0] / 2;
+            distance[source] = 0;
 
-            return min;
+            for (int count = 0; count < num_of_vertices - 1; count++)
+            {
+                int u = MinDistance(distance, visited, num_of_vertices);
+                visited[u] = true;
+
+                for (int v = 0; v < num_of_vertices; v++)
+                {
+                    if (!visited[v] && graph[u, v] != int.MaxValue && distance[u] != int.MaxValue &&
+                        distance[v] > distance[u] + graph[u, v])
+                    {
+                        distance[v] = distance[u] + graph[u, v];
+                    }
+                }
+            }
+
+            return distance;
         }
+
+        private static int MinDistance(int[] distance, bool[] visited, int num_of_vertices)
+        {
+            int min = int.MaxValue, minIndex = -1;
+
+            for (int v = 0; v < num_of_vertices; v++)
+            {
+                if (!visited[v] && distance[v] <= min)
+                {
+                    min = distance[v];
+                    minIndex = v;
+                }
+            }
+
+            return minIndex;
+        }*/
+
+
 
         /// =============================== Main ================================
         static void Main(string[] args)
