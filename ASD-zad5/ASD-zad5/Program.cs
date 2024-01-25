@@ -233,54 +233,6 @@ namespace ASD_zad5
 
             return distance;
         }
-        /*public static int[] Dijkstra(int[,] graph, int num_of_vertices, int source)
-        {
-            int[] distance = new int[num_of_vertices];
-            bool[] visited = new bool[num_of_vertices];
-
-            for (int v = 0; v < num_of_vertices; v++)
-            {
-                distance[v] = int.MaxValue;
-                visited[v] = false;
-            }
-
-            distance[source] = 0;
-
-            for (int count = 0; count < num_of_vertices - 1; count++)
-            {
-                int u = MinDistance(distance, visited, num_of_vertices);
-                visited[u] = true;
-
-                for (int v = 0; v < num_of_vertices; v++)
-                {
-                    if (!visited[v] && graph[u, v] != int.MaxValue && distance[u] != int.MaxValue &&
-                        distance[v] > distance[u] + graph[u, v])
-                    {
-                        distance[v] = distance[u] + graph[u, v];
-                    }
-                }
-            }
-
-            return distance;
-        }
-
-        private static int MinDistance(int[] distance, bool[] visited, int num_of_vertices)
-        {
-            int min = int.MaxValue, minIndex = -1;
-
-            for (int v = 0; v < num_of_vertices; v++)
-            {
-                if (!visited[v] && distance[v] <= min)
-                {
-                    min = distance[v];
-                    minIndex = v;
-                }
-            }
-
-            return minIndex;
-        }*/
-
-
 
         /// =============================== Main ================================
         static void Main(string[] args)
